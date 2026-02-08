@@ -7,28 +7,42 @@ import { useEffect, useState } from 'react';
 export default function Header() {
   const pathname = usePathname();
   const [isHome, setIsHome] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     setIsHome(pathname === '/');
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [pathname]);
 
   return (
     <>
-      <header className={`main-header header-style-two ${!isHome ? 'alternate' : ''}`}>
+      <header
+        className={`main-header header-style-two transition-all duration-300 ${isHome
+          ? (isScrolled ? 'fixed-header bg-transparent' : 'absolute w-full top-0 bg-transparent')
+          : 'alternate sticky-header'
+          }`}
+        style={{ position: isHome ? 'fixed' : undefined, width: '100%', top: 0, zIndex: 999 }}
+      >
         {/* Header Lower */}
-        <div className="header-lower">
+        <div className={`header-lower ${isScrolled ? '!bg-black/60 !backdrop-blur-xl !border-b !border-white/5 shadow-sm' : 'transition-all duration-300'}`}>
           <div className="auto-container">
             <div className="inner-container">
               <div className="d-flex align-items-center justify-content-between flex-wrap">
 
-                <div className="nav-outer d-flex align-items-center flex-wrap">
-                  <div className="logo-box">
-                    <div className="logo">
-                      <Link href="/">
-                        <img src="/assets/images/logo.svg" alt="" title="" />
-                      </Link>
-                    </div>
+                <div className="logo-box">
+                  <div className="logo">
+                    <Link href="/">
+                      <img src="/assets/images/sitelogo.png" alt="" title="" />
+                    </Link>
                   </div>
+                </div>
+
+                <div className="nav-outer mx-auto">
                   {/* Main Menu */}
                   <nav className="main-menu navbar-expand-md">
                     <div className="navbar-header">
@@ -40,13 +54,20 @@ export default function Header() {
                       </button>
                     </div>
 
-                    <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                    <div className="navbar-collapse clearfix" id="navbarSupportedContent">
                       <ul className="navigation clearfix">
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about">About</Link></li>
-                        <li><Link href="/services">Services</Link></li>
-                        <li><Link href="/blog">Blog</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li className={pathname === '/' ? "current" : ""}><Link href="/">Home</Link></li>
+                        <li className={pathname === '/about' ? "current" : ""}><Link href="/about">About</Link></li>
+                        <li className={`dropdown ${pathname?.startsWith('/products') ? "current" : ""}`}><Link href="/products">Products</Link>
+                          <ul>
+                            <li><Link href="/products">All Products</Link></li>
+                            <li><Link href="/products/hotel-pms">AI Hotel PMS</Link></li>
+                            <li><Link href="/products/ecommerce-sale-bot">E-Commerce Bot</Link></li>
+                            <li><Link href="/products/ai-chatbot">AI Chatbot</Link></li>
+                          </ul>
+                        </li>
+                        <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li>
+                        <li className={pathname === '/contact' ? "current" : ""}><Link href="/contact">Contact</Link></li>
                       </ul>
                     </div>
                   </nav>
@@ -57,18 +78,18 @@ export default function Header() {
 
                   {/* Button Box */}
                   <div className="main-header_buttons">
-                    <a href="#" className="template-btn btn-style-two">
+                    <Link href="/login" className="template-btn btn-style-two">
                       <span className="btn-wrap">
                         <span className="text-one">Login</span>
                         <span className="text-two">Login</span>
                       </span>
-                    </a>
-                    <a href="#" className="template-btn btn-style-one">
+                    </Link>
+                    <Link href="/register" className="template-btn btn-style-one animate-bg-gradient" style={{ border: 'none' }}>
                       <span className="btn-wrap">
                         <span className="text-one">Join now</span>
                         <span className="text-two">Join now</span>
                       </span>
-                    </a>
+                    </Link>
                   </div>
 
                   {/* Mobile Navigation Toggler */}
@@ -95,8 +116,16 @@ export default function Header() {
           <div className="close-btn"><span className="icon fa-solid fa-xmark fa-fw"></span></div>
 
           <nav className="menu-box">
-            <div className="nav-logo"><Link href="/"><img src="/assets/images/logo.svg" alt="" title="" /></Link></div>
-            <div className="menu-outer">{/* Here Menu Will Come Automatically Via Javascript / Same Menu as in Header */}</div>
+            <div className="nav-logo"><Link href="/"><img src="/assets/images/sitelogo.png" alt="" title="" /></Link></div>
+            <div className="menu-outer">
+              <ul className="navigation clearfix">
+                <li className={pathname === '/' ? "current" : ""}><Link href="/">Home</Link></li>
+                <li className={pathname === '/about' ? "current" : ""}><Link href="/about">About</Link></li>
+                <li className={pathname?.startsWith('/products') ? "current" : ""}><Link href="/products">Products</Link></li>
+                <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li>
+                <li className={pathname === '/contact' ? "current" : ""}><Link href="/contact">Contact</Link></li>
+              </ul>
+            </div>
           </nav>
         </div>
         {/* End Mobile Menu */}

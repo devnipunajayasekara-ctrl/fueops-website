@@ -5,6 +5,84 @@
   --foreground: #171717;
 }
 
+@keyframes text-shine {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.animate-text-gradient {
+  background: linear-gradient(to right, #761FE3, #b96bf1, #761FE3);
+  background-size: 200% auto;
+  animation: text-shine 3s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+}
+
+.animate-bg-gradient {
+  background: linear-gradient(to right, #761FE3, #b96bf1, #761FE3);
+  background-size: 200% auto;
+  animation: text-shine 3s linear infinite;
+  color: #ffffff;
+  border: none;
+  border: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes float-wide {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(50px, -50px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.animate-blob {
+  animation: float 7s infinite;
+}
+
+.animate-float-wide {
+  animation: float-wide 8s ease-in-out infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -26,15 +104,38 @@ body {
 }
 
 /* Force navigation link visibility overrides */
-.main-header .navigation > li > a {
+.main-header .navigation>li>a {
   color: var(--color-three, #BDBDBD) !important;
 }
 
-.main-header.alternate .navigation > li > a {
-  color: var(--color-four, #0F0F0F) !important;
+.main-header.alternate .navigation>li>a {
+  color: var(--color-three, #BDBDBD) !important;
 }
 
-.main-header .navigation > li:hover > a,
-.main-header .navigation > li.current > a {
+.main-header .navigation>li:hover>a,
+.main-header .navigation>li.current>a {
   color: var(--main-color, #761FE3) !important;
+}
+
+/* Ensure mobile menu links are visible when menu is active */
+.mobile-menu .navigation>li>a {
+  color: #111111 !important;
+  display: block;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure desktop menu is visible on larger screens */
+@media only screen and (min-width: 1024px) {
+  .main-header .nav-outer {
+    display: flex !important;
+  }
+
+  .main-header .main-menu {
+    display: block !important;
+  }
+
+  .main-header .navbar-collapse {
+    display: block !important;
+  }
 }

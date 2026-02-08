@@ -1,27 +1,50 @@
 import Link from 'next/link';
+import ServicesCarousel from '../components/ServicesCarousel';
+import MouseParticles from '../components/MouseParticles';
 
 export default function Home() {
   return (
     <>
       {/* Banner One */}
-      <section className="banner-one">
-        <div className="banner-one_shadow" style={{ backgroundImage: 'url(/assets/images/main-slider/banner-bg.png)' }}></div>
-        <div className="auto-container">
-          {/* Content Column */}
-          <div className="banner-one_content">
-            <div className="banner-one_content-inner">
+      {/* Banner One */}
+      <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-[#0a0a0a]">
+        {/* Background Gradients */}
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1a0b2e] via-[#0a0a0a] to-[#0a0a0a]"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#761FE3] rounded-full blur-[150px] opacity-10 pointer-events-none animate-blob"></div>
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#D093E8] rounded-full blur-[180px] opacity-5 pointer-events-none animate-blob animation-delay-2000"></div>
 
-              <h1 className="banner-one_heading">Intelligent <span>AI-Powered Solutions</span> for Modern Businesses</h1>
-              <div className="banner-one_text">Transform your business operations with FueOps cutting-edge AI technology.</div>
+        <div className="auto-container relative z-10 text-center pt-20">
+          <div className="inner-container max-w-4xl mx-auto">
+            <div className="inline-block px-4 py-1.5 mb-6 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-gray-300 font-medium">
+              Next-Gen AI Automation
+            </div>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 tracking-tight leading-tight">
+              Intelligent <br />
+              <span className="animate-text-gradient">
+                AI-Powered Solutions
+              </span>
+            </h1>
 
+            <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+              Transform your business operations with FueOps cutting-edge AI technology, designed for speed, precision, and scalability.
+            </p>
+
+            <div className="flex flex-col sm:flex-row justify-center gap-6 w-full">
+              <Link href="/contact" className="animate-bg-gradient group relative box-border inline-flex items-center justify-center min-w-[200px] h-[60px] px-8 text-white rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-900/40 overflow-hidden whitespace-nowrap">
+                <span className="relative z-10">Get Started Now</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </Link>
+              <Link href="/products" className="box-border inline-flex items-center justify-center min-w-[200px] h-[60px] px-8 bg-transparent border border-white/20 hover:border-[#761FE3] text-white hover:text-[#761FE3] rounded-full font-semibold transition-all duration-300 hover:bg-white/5 whitespace-nowrap">
+                Explore Solutions
+              </Link>
             </div>
           </div>
-          <div className="banner-one_icon" style={{ backgroundImage: 'url(/assets/images/main-slider/banner-icon.png)' }}></div>
-          <div className="banner-one_image">
-            <img src="/assets/images/main-slider/banner.png" alt="" />
-          </div>
         </div>
+
+        {/* Animated Background Elements (Optional for "Antigravity" feel) */}
+        <MouseParticles />
       </section>
+      {/* End Main Banner One */}
       {/* End Main Banner One */}
 
       {/* Assistance One */}
@@ -32,87 +55,7 @@ export default function Home() {
             <div className="sec-title_title">our ai solutions</div>
             <h2 className="sec-title_heading">Explore the power of our <br /> <span>AI products</span></h2>
           </div>
-          <div className="three-item_carousel swiper-container">
-            <div className="swiper-wrapper">
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* Service Block Three */}
-                <div className="service-block_three">
-                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
-                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
-                    <div className="color-layer"></div>
-                    <div className="service-block_three-icon">
-                      <i className="icon-cart"></i>
-                    </div>
-                    <h5 className="service-block_three-heading"><Link href="/hotel-pms">AI Hotel PMS Integration</Link></h5>
-                    <div className="service-block_three-text">A complete property management system where staff verify availability via internal chat and guests book stays through an intelligent assistant.</div>
-                    <Link className="service-block_three-more" href="/hotel-pms">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
-                  </div>
-                </div>
-              </div>
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* Service Block Three */}
-                <div className="service-block_three">
-                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
-                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
-                    <div className="color-layer"></div>
-                    <div className="service-block_three-icon">
-                      <i className="icon-cart"></i>
-                    </div>
-                    <h5 className="service-block_three-heading"><Link href="/ecommerce-sale-bot">E-commerce AI Chatbot</Link></h5>
-                    <div className="service-block_three-text">Boost sales and customer satisfaction with our intelligent e-commerce chatbot. Automate product recommendations, handle inquiries, and provide 24/7 shopping assistance.</div>
-                    <Link className="service-block_three-more" href="/ecommerce-sale-bot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
-                  </div>
-                </div>
-              </div>
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* Service Block Three */}
-                <div className="service-block_three">
-                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
-                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
-                    <div className="color-layer"></div>
-                    <div className="service-block_three-icon">
-                      <i className="icon-magnet"></i>
-                    </div>
-                    <h5 className="service-block_three-heading"><Link href="/ai-chatbot">Intelligent AI Chatbot</Link></h5>
-                    <div className="service-block_three-text">Deploy conversational AI that understands context and delivers human-like interactions. Perfect for customer support, lead qualification, and engagement automation.</div>
-                    <Link className="service-block_three-more" href="/ai-chatbot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
-                  </div>
-                </div>
-              </div>
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* Service Block Three */}
-                <div className="service-block_three">
-                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
-                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
-                    <div className="color-layer"></div>
-                    <div className="service-block_three-icon">
-                      <i className="icon-diagram"></i>
-                    </div>
-                    <h5 className="service-block_three-heading"><Link href="/financial-management">AI Financial Management</Link></h5>
-                    <div className="service-block_three-text">Revolutionize your financial operations with AI-powered analytics and automation. Get real-time insights, predictive forecasting, and intelligent transaction processing.</div>
-                    <Link className="service-block_three-more" href="/financial-management">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            {/* If we need pagination */}
-            <div className="three-item_carousel-pagination"></div>
-
-          </div>
+          <ServicesCarousel />
 
         </div>
       </section>
