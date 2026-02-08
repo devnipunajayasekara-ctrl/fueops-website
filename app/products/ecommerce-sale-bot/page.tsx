@@ -30,7 +30,7 @@ export default function EcommerceSaleBotPage() {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
                             <div className="left-box">
                                 <div className="sec-title_title">AI Shopping Assistant</div>
-                                <h2 className="sec-title_heading">Turn visitors into buyers with <span>Conversational </span>Commerce</h2>
+                                <h2 className="sec-title_heading">Turn visitors into buyers with <span className="animate-text-gradient">Conversational </span>Commerce</h2>
                             </div>
                             <div className="right-box">
                                 <p>Static product pages are a thing of the past. FueOps E-commerce Sales Bot acts as a proactive digital sales associate, living on your store 24/7. It greets visitors, understands their shopping needs, and guides them directly to the products they want, replicating the in-store experience online.</p>
@@ -51,7 +51,7 @@ export default function EcommerceSaleBotPage() {
                     {/* Sec Title */}
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Service benefit</div>
-                        <h2 className="sec-title_heading"><span>Benefit</span> of our services</h2>
+                        <h2 className="sec-title_heading"><span className="animate-text-gradient">Benefit</span> of our services</h2>
                     </div>
                     <div className="row clearfix">
 
@@ -119,7 +119,7 @@ export default function EcommerceSaleBotPage() {
                         {/* Sec Title */}
                         <div className="sec-title">
                             <div className="sec-title_title">How Its work</div>
-                            <h2 className="sec-title_heading">Launching your <br /> AI Sales Agent in <span>three steps</span></h2>
+                            <h2 className="sec-title_heading">Launching your <br /> AI Sales Agent in <span className="animate-text-gradient">three steps</span></h2>
                         </div>
                         <div className="steps-one_button">
                             <Link href="/contact" className="template-btn btn-style-two">
@@ -234,7 +234,7 @@ export default function EcommerceSaleBotPage() {
                                 {/* Sec Title */}
                                 <div className="sec-title">
                                     <div className="sec-title_title">faq</div>
-                                    <h2 className="sec-title_heading">Frequently asked <span>questions</span></h2>
+                                    <h2 className="sec-title_heading">Frequently asked <span className="animate-text-gradient">questions</span></h2>
                                     <div className="sec-title_text">Maximize your store&apos;s potential. Here are common questions about deploying our E-commerce Sales Bot.</div>
                                 </div>
                                 <div className="faq-one_button">

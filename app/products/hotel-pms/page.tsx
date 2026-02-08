@@ -30,7 +30,7 @@ export default function HotelPmsPage() {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
                             <div className="left-box">
                                 <div className="sec-title_title">Hospitality Automation</div>
-                                <h2 className="sec-title_heading">Redefining guest experiences with <span>Intelligent PMS</span> </h2>
+                                <h2 className="sec-title_heading">Redefining guest experiences with <span className="animate-text-gradient">Intelligent PMS</span> </h2>
                             </div>
                             <div className="right-box">
                                 <p>Modern hospitality isn't just about a comfortable bed; it's about instant service. FueOps offers a next-generation Property Management System (PMS) where AI is the core, not an addon. Our system integrates directly with a guest-facing AI Chatbot, allowing guests to manage their entire stay—from booking to room service—without waiting in line at the front desk.</p>
@@ -51,7 +51,7 @@ export default function HotelPmsPage() {
                     {/* Sec Title */}
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Service benefit</div>
-                        <h2 className="sec-title_heading"><span>Benefit</span> of our services</h2>
+                        <h2 className="sec-title_heading"><span className="animate-text-gradient">Benefit</span> of our services</h2>
                     </div>
                     <div className="row clearfix">
 
@@ -119,7 +119,7 @@ export default function HotelPmsPage() {
                         {/* Sec Title */}
                         <div className="sec-title">
                             <div className="sec-title_title">How Its work</div>
-                            <h2 className="sec-title_heading">Streamlining your hotel <br />  operations in <span>a three steps</span></h2>
+                            <h2 className="sec-title_heading">Streamlining your hotel <br />  operations in <span className="animate-text-gradient">a three steps</span></h2>
                         </div>
                         <div className="steps-one_button">
                             <Link href="/contact" className="template-btn btn-style-two">
@@ -192,7 +192,7 @@ export default function HotelPmsPage() {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
                             <div className="left-box">
                                 <div className="sec-title_title">Challenges & Solutions</div>
-                                <h2 className="sec-title_heading">Solving the front-desk bottleneck <span>bottleneck</span></h2>
+                                <h2 className="sec-title_heading">Solving the front-desk bottleneck <span className="animate-text-gradient">bottleneck</span></h2>
                             </div>
                             <div className="right-box">
                                 <p>Traditional hotels suffer from peak-hour congestion, overwhelmed staff, and delayed responses to guest needs. FueOps removes the bottleneck by offloading routine tasks to the AI. This allows your front desk staff to focus on high-touch hospitality rather than data entry and phone calls.</p>
@@ -235,7 +235,7 @@ export default function HotelPmsPage() {
                                 {/* Sec Title */}
                                 <div className="sec-title">
                                     <div className="sec-title_title">faq</div>
-                                    <h2 className="sec-title_heading">Frequently asked <span>questions</span></h2>
+                                    <h2 className="sec-title_heading">Frequently asked <span className="animate-text-gradient">questions</span></h2>
                                     <div className="sec-title_text">Transitioning to a new PMS is a big step. Here is how FueOps ensures a smooth migration and operation.</div>
                                 </div>
                                 <div className="faq-one_button">

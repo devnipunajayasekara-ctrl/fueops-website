@@ -37,7 +37,7 @@ export default function Header() {
                 <div className="logo-box">
                   <div className="logo">
                     <Link href="/">
-                      <img src="/assets/images/sitelogo.png" alt="" title="" className="w-[140px]" />
+                      <img src="/assets/images/logo.svg" alt="" title="" className="w-[140px]" />
                     </Link>
                   </div>
                 </div>
@@ -116,15 +116,9 @@ export default function Header() {
           <div className="close-btn"><span className="icon fa-solid fa-xmark fa-fw"></span></div>
 
           <nav className="menu-box">
-            <div className="nav-logo"><Link href="/"><img src="/assets/images/sitelogo.png" alt="" title="" className="w-[120px]" /></Link></div>
+            <div className="nav-logo"><Link href="/"><img src="/assets/images/logo.svg" alt="" title="" className="w-[120px]" /></Link></div>
             <div className="menu-outer">
-              <ul className="navigation clearfix">
-                <li className={pathname === '/' ? "current" : ""}><Link href="/">Home</Link></li>
-                <li className={pathname === '/about' ? "current" : ""}><Link href="/about">About</Link></li>
-                <li className={pathname?.startsWith('/products') ? "current" : ""}><Link href="/products">Products</Link></li>
-                <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li>
-                <li className={pathname === '/contact' ? "current" : ""}><Link href="/contact">Contact</Link></li>
-              </ul>
+
             </div>
           </nav>
         </div>

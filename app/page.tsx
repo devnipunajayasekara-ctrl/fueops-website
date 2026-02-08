@@ -57,7 +57,7 @@ export default function Home() {
           {/* Sec Title */}
           <div className="sec-title style-two centered">
             <div className="sec-title_title">our ai solutions</div>
-            <h2 className="sec-title_heading">Explore the power of our <br /> <span>AI products</span></h2>
+            <h2 className="sec-title_heading">Explore the power of our <br /> <span className="animate-text-gradient">AI products</span></h2>
           </div>
           <ServicesCarousel />
 
@@ -83,7 +83,7 @@ export default function Home() {
                 {/* Sec Title */}
                 <div className="sec-title style-two title-anim">
                   <div className="sec-title_title">BUSINESS TRANSFORMATION</div>
-                  <h2 className="sec-title_heading">Scale your operations with <span>Intelligent</span> Business Automation</h2>
+                  <h2 className="sec-title_heading">Scale your operations with <span className="animate-text-gradient">Intelligent</span> Business Automation</h2>
                   <div className="sec-title_text">FueOps provides a unified layer of digital intelligence that connects your staff, customers, and data. By automating routine complexities across your enterprise, we empower your team to focus on high-value strategy while our systems ensure every business interaction is handled with precision, speed, and 24/7 reliability.</div>
                 </div>
                 <ul className="livechat-list">
@@ -117,7 +117,7 @@ export default function Home() {
             {/* Sec Title */}
             <div className="sec-title style-two centered">
               <div className="sec-title_title">why choose us</div>
-              <h2 className="sec-title_heading">Trusted by innovative companies <br /> <span>worldwide</span></h2>
+              <h2 className="sec-title_heading">Trusted by innovative companies <br /> <span className="animate-text-gradient">worldwide</span></h2>
             </div>
             <div className="row clearfix !flex !flex-wrap">
 
@@ -179,7 +179,7 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">CONVERSATIONAL AI</div>
-                        <h2 className="sec-title_heading">Intelligent <span>AI Chatbot</span> for Business</h2>
+                        <h2 className="sec-title_heading">Intelligent <span className="animate-text-gradient">AI Chatbot</span> for Business</h2>
                         <div className="sec-title_text">Deploy conversational AI that understands customer intent and delivers human-like interactions 24/7. Perfect for automating support and lead qualification.</div>
                       </div>
                       <ul className="livechat-list">
@@ -210,7 +210,7 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">HOSPITALITY SOLUTIONS</div>
-                        <h2 className="sec-title_heading">Transform Hospitality with <span>AI Hotel PMS</span></h2>
+                        <h2 className="sec-title_heading">Transform Hospitality with <span className="animate-text-gradient">AI Hotel PMS</span></h2>
                         <div className="sec-title_text">A centralized system connecting your front desk and guests. Staff check availability via internal chat while guests enjoy automated check-ins.</div>
                       </div>
                       <ul className="livechat-list">
@@ -241,7 +241,7 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">E-COMMERCE EXCELLENCE</div>
-                        <h2 className="sec-title_heading">Drive Sales with <span>E-commerce AI</span></h2>
+                        <h2 className="sec-title_heading">Drive Sales with <span className="animate-text-gradient">E-commerce AI</span></h2>
                         <div className="sec-title_text">Analyzes customer behavior in real-time to suggest relevant products and answer stock queries instantly. High conversion driven by smart upsells.</div>
                       </div>
                       <ul className="livechat-list">
@@ -272,7 +272,7 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">FINANCIAL INTELLIGENCE</div>
-                        <h2 className="sec-title_heading">Financial Management <span>AI Transformation</span></h2>
+                        <h2 className="sec-title_heading">Financial Management <span className="animate-text-gradient">AI Transformation</span></h2>
                         <div className="sec-title_text">Revolutionize financial operations with AI-powered analytics and automation. Eliminate manual spreadsheets and manage all financial data digitally.</div>
                       </div>
                       <ul className="livechat-list">
@@ -311,7 +311,7 @@ export default function Home() {
             {/* Sec Title */}
             <div className="sec-title style-two light centered">
               <div className="sec-title_title">Trusted partnerships</div>
-              <h2 className="sec-title_heading"><span>Trusted 10+</span> businesses <br /></h2>
+              <h2 className="sec-title_heading">Trusted 10+ businesses <br /></h2>
             </div>
             <div className="clients-box_one">
               <div className="animation_mode">
@@ -373,7 +373,7 @@ export default function Home() {
           {/* Sec Title */}
           <div className="sec-title style-two">
             <div className="sec-title_title">TESTIMONIAL</div>
-            <h2 className="sec-title_heading">What our respectable <br /> <span>clients says</span></h2>
+            <h2 className="sec-title_heading">What our respectable <br /> <span className="animate-text-gradient">clients says</span></h2>
           </div>
           <div className="inner-container">
             <div className="single-item_carousel swiper-container">
@@ -529,7 +529,7 @@ export default function Home() {
             <div className="d-flex justify-content-between align-items-end flex-wrap">
               <div className="left-box">
                 <div className="sec-title_title">OUR BLOG</div>
-                <h2 className="sec-title_heading">Read our latest <span>blogs</span></h2>
+                <h2 className="sec-title_heading">Read our latest <span className="animate-text-gradient">blogs</span></h2>
               </div>
               <div className="news-two_button">
                 <div className="livechat_button">

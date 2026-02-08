@@ -29,7 +29,7 @@ export default function AiChatbotPage() {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
                             <div className="left-box">
                                 <div className="sec-title_title">Conversational AI</div>
-                                <h2 className="sec-title_heading">Revolutionize interaction with <span>Natural Language</span>Processing</h2>
+                                <h2 className="sec-title_heading">Revolutionize interaction with <span className="animate-text-gradient">Natural Language</span>Processing</h2>
                             </div>
                             <div className="right-box">
                                 <p>In the fast-paced digital world, customers demand instant answers. FueOps Intelligent AI Chatbot isn&apos;t just a script; it&apos;s a sophisticated conversational engine powered by advanced Natural Language Processing (NLP). It understands context, sentiment, and intent, allowing your business to provide human-like support 24/7 without burning out your team.</p>
@@ -50,7 +50,7 @@ export default function AiChatbotPage() {
                     {/* Sec Title */}
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Service benefit</div>
-                        <h2 className="sec-title_heading"><span>Benefit</span> of our services</h2>
+                        <h2 className="sec-title_heading"><span className="animate-text-gradient">Benefit</span> of our services</h2>
                     </div>
                     <div className="row clearfix">
 
@@ -118,7 +118,7 @@ export default function AiChatbotPage() {
                         {/* Sec Title */}
                         <div className="sec-title">
                             <div className="sec-title_title">Workflow</div>
-                            <h2 className="sec-title_heading">How FueOps <span>Integrates in</span></h2>
+                            <h2 className="sec-title_heading">How FueOps <span className="animate-text-gradient">Integrates in</span></h2>
                         </div>
                         <div className="steps-one_button">
                             <Link href="/contact" className="template-btn btn-style-two">
@@ -233,7 +233,7 @@ export default function AiChatbotPage() {
                                 {/* Sec Title */}
                                 <div className="sec-title">
                                     <div className="sec-title_title">faq</div>
-                                    <h2 className="sec-title_heading">Frequently asked <span>questions</span></h2>
+                                    <h2 className="sec-title_heading">Frequently asked <span className="animate-text-gradient">questions</span></h2>
                                     <div className="sec-title_text">Find clear answers regarding our AI Chatbot&apos;s integration process, security protocols, and how it handles complex customer interactions to streamline your support.</div>
                                 </div>
                                 <div className="faq-one_button">

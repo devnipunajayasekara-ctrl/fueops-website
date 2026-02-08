@@ -150,7 +150,7 @@ export default function ProductsPage() {
                                 {/* Sec Title */}
                                 <div className="sec-title">
                                     <div className="sec-title_title">Support</div>
-                                    <h2 className="sec-title_heading">Frequently asked <span>questions</span></h2>
+                                    <h2 className="sec-title_heading">Frequently asked <span className="animate-text-gradient">questions</span></h2>
                                     <div className="sec-title_text">Have questions about implementing AI in your business? Here is how FueOps ensures a smooth transition.</div>
                                 </div>
                                 <div className="faq-one_button">

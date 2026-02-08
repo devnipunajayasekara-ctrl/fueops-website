@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 export default function About() {
     return (
@@ -39,7 +40,7 @@ export default function About() {
                                 {/* Sec Title */}
                                 <div className="sec-title style-four">
                                     <div className="sec-title_title">Our story</div>
-                                    <h2 className="sec-title_heading">Pioneering the future of <span>AI-powered</span> business solutions</h2>
+                                    <h2 className="sec-title_heading">Pioneering the future of <span className="animate-text-gradient">AI-powered</span> business solutions</h2>
                                 </div>
                                 <p>FueOps was founded with a clear vision: to democratize artificial intelligence and make cutting-edge technology accessible to businesses of all sizes. Our journey began when a team of AI specialists and software engineers recognized the growing gap between technological advancement and practical business implementation.</p>
                                 <p>From our first intelligent chatbot to our comprehensive AI financial management system, each product we develop solves real business challenges. We've partnered with e-commerce platforms, financial institutions, and enterprises across 3+ countries, transforming how they engage customers and manage operations through intelligent automation.</p>
@@ -65,13 +66,13 @@ export default function About() {
                     {/* Sec Title */}
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">core values</div>
-                        <h2 className="sec-title_heading">The principles that <span>drive FueOps</span> <br /> forward every day.</h2>
+                        <h2 className="sec-title_heading">The principles that <span className="animate-text-gradient">drive FueOps</span> <br /> forward every day.</h2>
                     </div>
-                    <div className="row clearfix">
+                    <div className="row clearfix !flex !flex-wrap">
 
                         {/* Value Block One */}
                         <div className="value-block_one col-lg-4 col-md-6 col-sm-12">
-                            <div className="value-block_one-inner">
+                            <div className="value-block_one-inner !h-full">
                                 <div className="value-block_one-icon">
                                     <i className="icon-users-4"></i>
                                 </div>
@@ -82,7 +83,7 @@ export default function About() {
 
                         {/* Value Block One */}
                         <div className="value-block_one active col-lg-4 col-md-6 col-sm-12">
-                            <div className="value-block_one-inner">
+                            <div className="value-block_one-inner !h-full">
                                 <div className="value-block_one-icon">
                                     <i className="icon-bulb1"></i>
                                 </div>
@@ -93,7 +94,7 @@ export default function About() {
 
                         {/* Value Block One */}
                         <div className="value-block_one col-lg-4 col-md-6 col-sm-12">
-                            <div className="value-block_one-inner">
+                            <div className="value-block_one-inner !h-full">
                                 <div className="value-block_one-icon">
                                     <i className="fa-solid fa-bullseye fa-fw"></i>
                                 </div>
@@ -128,13 +129,8 @@ export default function About() {
                                 {/* Sec Title */}
                                 <div className="sec-title style-four">
                                     <div className="sec-title_title">Our team</div>
-                                    <h2 className="sec-title_heading">Meet the minds <span>behind FueOps</span></h2>
+                                    <h2 className="sec-title_heading">Meet the minds <span className="animate-text-gradient">behind FueOps</span></h2>
                                     <div className="sec-title_text">Our diverse team of AI engineers, data scientists, and business strategists brings decades of combined experience in machine learning, software development, and digital transformation.</div>
-                                </div>
-                                {/* If we need navigation buttons */}
-                                <div className="team-one_arrows">
-                                    <div className="team_carousel-prev fa-solid fa-angle-left fa-fw"></div>
-                                    <div className="team_carousel-next fa-solid fa-angle-right fa-fw"></div>
                                 </div>
                             </div>
                         </div>
@@ -142,55 +138,51 @@ export default function About() {
                         {/* Team Column */}
                         <div className="team-one_team-column col-lg-8 col-md-12 col-sm-12">
                             <div className="team-one_team-outer">
-                                <div className="team-carousel swiper-container">
-                                    <div className="swiper-wrapper">
+                                <div className="row clearfix">
 
-                                        {/* Slide */}
-                                        <div className="swiper-slide">
-                                            {/* Team Block One */}
-                                            <div className="team-block_one">
-                                                <div className="team-block_one-inner">
-                                                    <div className="team-block_one-image">
-                                                        <Link href="#"><img src="/assets/images/resource/team-1.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="team-block_one-content">
-                                                        <h4 className="team-block_one-title"><Link href="#">Elliot S. Acevedo</Link></h4>
-                                                        <div className="team-block_one-designation">Founder</div>
-                                                        {/* Social Box */}
-                                                        <div className="team-block_one-socials">
-                                                            <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                                                            <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                                                            <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
-                                                        </div>
+                                    {/* Team Block One */}
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <div className="team-block_one">
+                                            <div className="team-block_one-inner">
+                                                <div className="team-block_one-image">
+                                                    <Link href="#"><img src="/assets/images/resource/team-1.jpg" alt="" className="max-h-[350px] w-full object-cover" /></Link>
+                                                </div>
+                                                <div className="team-block_one-content">
+                                                    <h4 className="team-block_one-title"><Link href="#">Elliot S. Acevedo</Link></h4>
+                                                    <div className="team-block_one-designation">Founder</div>
+                                                    {/* Social Box */}
+                                                    <div className="team-block_one-socials">
+                                                        <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
+                                                        <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
+                                                        <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* Slide */}
-                                        <div className="swiper-slide">
-                                            {/* Team Block One */}
-                                            <div className="team-block_one">
-                                                <div className="team-block_one-inner">
-                                                    <div className="team-block_one-image">
-                                                        <Link href="#"><img src="/assets/images/resource/team-2.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="team-block_one-content">
-                                                        <h4 className="team-block_one-title"><Link href="#">Elliot S. Acevedo</Link></h4>
-                                                        <div className="team-block_one-designation">Founder</div>
-                                                        {/* Social Box */}
-                                                        <div className="team-block_one-socials">
-                                                            <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                                                            <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                                                            <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
-                                </div>
 
+                                    {/* Team Block Two */}
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <div className="team-block_one">
+                                            <div className="team-block_one-inner">
+                                                <div className="team-block_one-image">
+                                                    <Link href="#"><img src="/assets/images/resource/team-2.jpg" alt="" className="max-h-[350px] w-full object-cover" /></Link>
+                                                </div>
+                                                <div className="team-block_one-content">
+                                                    <h4 className="team-block_one-title"><Link href="#">Sarah Mitchell</Link></h4>
+                                                    <div className="team-block_one-designation">Co-Founder</div>
+                                                    {/* Social Box */}
+                                                    <div className="team-block_one-socials">
+                                                        <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
+                                                        <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
+                                                        <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
 
@@ -199,97 +191,18 @@ export default function About() {
             </section>
             {/* End Team One */}
 
-            {/* Testimonial Three */}
-            <section className="testimonial-three">
+            {/* Testimonial Two */}
+            <section className="testimonial-two">
                 <div className="auto-container">
                     {/* Sec Title */}
-                    <div className="sec-title style-four centered">
+                    <div className="sec-title style-two">
                         <div className="sec-title_title">Success Stories</div>
-                        <h2 className="sec-title_heading">Our clients share their <br /> business <span>transformation</span></h2>
+                        <h2 className="sec-title_heading">Our clients share their <br /> business <span className="animate-text-gradient">transformation</span></h2>
                     </div>
-
-                    <div className="three-item_carousel swiper-container">
-                        <div className="swiper-wrapper">
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                {/* Testimonial Block One */}
-                                <div className="testimonial-block_one">
-                                    <div className="testimonial-block_one-inner">
-                                        <div className="testimonial-block_one-rating">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                        </div>
-                                        <div className="testimonial-block_one-text">Working with FueOps was a game-changer for our boutique hotel chain. Their AI system understands our brand voice perfectly and handles everything from booking inquiries to special requests. The implementation was seamless, and the team provided exceptional <span>support throughout</span>. Highly recommended!</div>
-                                        <div className="testimonial-block_one-author_box">
-                                            <div className="testimonial-block_one-author-image">
-                                                <img src="/assets/images/resource/author-2.png" alt="" />
-                                            </div>
-                                            Larry K. Lund <span>Social Media Manger</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                {/* Testimonial Block One */}
-                                <div className="testimonial-block_one">
-                                    <div className="testimonial-block_one-inner">
-                                        <div className="testimonial-block_one-rating">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                        </div>
-                                        <div className="testimonial-block_one-text">FueOps delivered exactly what they promised. The AI chatbot integrated perfectly with our inventory system and CRM. Customer satisfaction improved dramatically, and we're processing three times more inquiries with the same <span>support team</span>. The ROI was evident within the first month.</div>
-                                        <div className="testimonial-block_one-author_box">
-                                            <div className="testimonial-block_one-author-image">
-                                                <img src="/assets/images/resource/author-3.png" alt="" />
-                                            </div>
-                                            Marian R. Vieira <span>Social Media Manger</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                {/* Testimonial Block One */}
-                                <div className="testimonial-block_one">
-                                    <div className="testimonial-block_one-inner">
-                                        <div className="testimonial-block_one-rating">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                        </div>
-                                        <div className="testimonial-block_one-text">As a multi-location business, we needed consistency across all touchpoints. FueOps' AI solutions provided unified automation that maintains our brand standards while adapting to <span>local needs</span>. The financial management module alone saved us countless hours of manual reconciliation work.</div>
-                                        <div className="testimonial-block_one-author_box">
-                                            <div className="testimonial-block_one-author-image">
-                                                <img src="/assets/images/resource/author-4.png" alt="" />
-                                            </div>
-                                            Bob E. Wiggins <span>Social Media Manger</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        {/* If we need pagination */}
-                        <div className="three-item_carousel-pagination"></div>
-
-                    </div>
-
+                    <TestimonialCarousel />
                 </div>
             </section>
-            {/* End Testimonial Three */}
+            {/* End Testimonial Two */}
 
             {/* Clients Two */}
             <section className="clients-two">
