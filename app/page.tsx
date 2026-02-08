@@ -1,65 +1,762 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      {/* Banner One */}
+      <section className="banner-one">
+        <div className="banner-one_shadow" style={{ backgroundImage: 'url(/assets/images/main-slider/banner-bg.png)' }}></div>
+        <div className="auto-container">
+          {/* Content Column */}
+          <div className="banner-one_content">
+            <div className="banner-one_content-inner">
+
+              <h1 className="banner-one_heading">Intelligent <span>AI-Powered Solutions</span> for Modern Businesses</h1>
+              <div className="banner-one_text">Transform your business operations with FueOps cutting-edge AI technology.</div>
+
+            </div>
+          </div>
+          <div className="banner-one_icon" style={{ backgroundImage: 'url(/assets/images/main-slider/banner-icon.png)' }}></div>
+          <div className="banner-one_image">
+            <img src="/assets/images/main-slider/banner.png" alt="" />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+      {/* End Main Banner One */}
+
+      {/* Assistance One */}
+      <section className="assistance-one">
+        <div className="auto-container">
+          {/* Sec Title */}
+          <div className="sec-title style-two centered">
+            <div className="sec-title_title">our ai solutions</div>
+            <h2 className="sec-title_heading">Explore the power of our <br /> <span>AI products</span></h2>
+          </div>
+          <div className="three-item_carousel swiper-container">
+            <div className="swiper-wrapper">
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* Service Block Three */}
+                <div className="service-block_three">
+                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
+                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
+                    <div className="color-layer"></div>
+                    <div className="service-block_three-icon">
+                      <i className="icon-cart"></i>
+                    </div>
+                    <h5 className="service-block_three-heading"><Link href="/hotel-pms">AI Hotel PMS Integration</Link></h5>
+                    <div className="service-block_three-text">A complete property management system where staff verify availability via internal chat and guests book stays through an intelligent assistant.</div>
+                    <Link className="service-block_three-more" href="/hotel-pms">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* Service Block Three */}
+                <div className="service-block_three">
+                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
+                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
+                    <div className="color-layer"></div>
+                    <div className="service-block_three-icon">
+                      <i className="icon-cart"></i>
+                    </div>
+                    <h5 className="service-block_three-heading"><Link href="/ecommerce-sale-bot">E-commerce AI Chatbot</Link></h5>
+                    <div className="service-block_three-text">Boost sales and customer satisfaction with our intelligent e-commerce chatbot. Automate product recommendations, handle inquiries, and provide 24/7 shopping assistance.</div>
+                    <Link className="service-block_three-more" href="/ecommerce-sale-bot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* Service Block Three */}
+                <div className="service-block_three">
+                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
+                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
+                    <div className="color-layer"></div>
+                    <div className="service-block_three-icon">
+                      <i className="icon-magnet"></i>
+                    </div>
+                    <h5 className="service-block_three-heading"><Link href="/ai-chatbot">Intelligent AI Chatbot</Link></h5>
+                    <div className="service-block_three-text">Deploy conversational AI that understands context and delivers human-like interactions. Perfect for customer support, lead qualification, and engagement automation.</div>
+                    <Link className="service-block_three-more" href="/ai-chatbot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* Service Block Three */}
+                <div className="service-block_three">
+                  <div className="service-block_three-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
+                    <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
+                    <div className="color-layer"></div>
+                    <div className="service-block_three-icon">
+                      <i className="icon-diagram"></i>
+                    </div>
+                    <h5 className="service-block_three-heading"><Link href="/financial-management">AI Financial Management</Link></h5>
+                    <div className="service-block_three-text">Revolutionize your financial operations with AI-powered analytics and automation. Get real-time insights, predictive forecasting, and intelligent transaction processing.</div>
+                    <Link className="service-block_three-more" href="/financial-management">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            {/* If we need pagination */}
+            <div className="three-item_carousel-pagination"></div>
+
+          </div>
+
         </div>
-      </main>
-    </div>
+      </section>
+      {/* End Assistance One */}
+
+      {/* Business Automation */}
+      <section className="livechat">
+        <div className="auto-container">
+          <div className="row clearfix">
+
+            {/* Image Column */}
+            <div className="livechat_image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="livechat_image-outer">
+                <div className="livechat-agent"><i><img src="/assets/images/icons/livechat-stars.png" alt="" /></i></div>
+                <div className="livechat-layer" style={{ backgroundImage: 'url(/assets/images/background/service-three_bg.png)' }}></div>
+                <div className="livechat-icon" style={{ backgroundImage: 'url(/assets/images/icons/livechat-icon.png)' }}></div>
+                <div className="color-layer"></div>
+                <img src="/assets/images/resource/livechat.png" alt="FueOps AI Chatbot" />
+              </div>
+            </div>
+
+            {/* Content Column */}
+            <div className="livechat_content-column col-lg-6 col-md-12 col-sm-12">
+              <div className="livechat_content-outer">
+                {/* Sec Title */}
+                <div className="sec-title style-two title-anim">
+                  <div className="sec-title_title">BUSINESS TRANSFORMATION</div>
+                  <h2 className="sec-title_heading">Scale your operations with <span>Intelligent</span> Business Automation</h2>
+                  <div className="sec-title_text">FueOps provides a unified layer of digital intelligence that connects your staff, customers, and data. By automating routine complexities across your enterprise, we empower your team to focus on high-value strategy while our systems ensure every business interaction is handled with precision, speed, and 24/7 reliability.</div>
+                </div>
+                <ul className="livechat-list">
+                  <li><i className="fa-solid fa-check fa-fw"></i> <b>Unified Intelligence:</b> Synchronize every department through a single, data-driven AI ecosystem.</li>
+                  <li><i className="fa-solid fa-check fa-fw"></i> <b>Scalable Solutions:</b> Implement adaptive AI tools that grow alongside your existing business infrastructure.</li>
+                  <li><i className="fa-solid fa-check fa-fw"></i> <b>Seamless Integration:</b> Bridge the gap between your current legacy software and modern AI capabilities.</li>
+                </ul>
+                <div className="livechat-options d-flex align-items-center flex-wrap">
+                  <div className="livechat_button">
+                    <Link href="/about" className="template-btn btn-style-one">
+                      <span className="btn-wrap">
+                        <span className="text-one">Learn more</span>
+                        <span className="text-two">Learn more</span>
+                      </span>
+                    </Link>
+                  </div>
+                  <Link className="livechat-now" href="/contact"><i><img src="/assets/images/icons/chat.png" alt="" /></i> Contact us</Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/* End Business Automation */}
+
+      {/* Counter One */}
+      <section className="counter-one">
+        <div className="auto-container">
+          <div className="inner-container">
+            {/* Sec Title */}
+            <div className="sec-title style-two centered">
+              <div className="sec-title_title">why choose us</div>
+              <h2 className="sec-title_heading">Trusted by innovative companies <br /> <span>worldwide</span></h2>
+            </div>
+            <div className="row clearfix">
+
+              {/* Counter Block Two */}
+              <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
+                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <div className="color-layer"></div>
+                  <div className="counter-block_two-count"><span className="odometer" data-count="10"></span><i>+</i></div>
+                  <h5 className="counter-block_two-title">Enterprise Clients</h5>
+                  <div className="counter-block_two-text">Businesses transformed with FueOps AI and PMS solutions.</div>
+                </div>
+              </div>
+
+              {/* Counter Block Two */}
+              <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
+                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+                  <div className="color-layer"></div>
+                  <div className="counter-block_two-count"><span className="odometer" data-count="1"></span><i>M+</i></div>
+                  <h5 className="counter-block_two-title">AI Interactions</h5>
+                  <div className="counter-block_two-text">Automated conversations processed across our global network.</div>
+                </div>
+              </div>
+
+              {/* Counter Block Two */}
+              <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
+                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                  <div className="color-layer"></div>
+                  <div className="counter-block_two-count"><span className="odometer" data-count="0"></span><i></i></div>
+                  <h5 className="counter-block_two-title">Manual Sheets</h5>
+                  <div className="counter-block_two-text">Our clients have replaced 100% of their manual financial spreadsheets.</div>
+                </div>
+              </div>
+
+              {/* Counter Block Two */}
+              <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
+                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
+                  <div className="color-layer"></div>
+                  <div className="counter-block_two-count"><span className="odometer" data-count="99"><i>%</i></span></div>
+                  <h5 className="counter-block_two-title">Satisfaction</h5>
+                  <div className="counter-block_two-text">Braine is the leading chat tool.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End Counter One */}
+
+      <section className="conversation-one">
+        <div className="auto-container">
+
+          <div className="product-showcase-carousel swiper-container">
+            <div className="swiper-wrapper">
+
+              <div className="swiper-slide">
+                <div className="row clearfix">
+                  <div className="conversation-one_content-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_content-outer">
+                      <div className="sec-title style-two">
+                        <div className="sec-title_title">CONVERSATIONAL AI</div>
+                        <h2 className="sec-title_heading">Intelligent <span>AI Chatbot</span> for Business</h2>
+                        <div className="sec-title_text">Deploy conversational AI that understands customer intent and delivers human-like interactions 24/7. Perfect for automating support and lead qualification.</div>
+                      </div>
+                      <ul className="livechat-list">
+                        <li><i className="fa-solid fa-check fa-fw"></i>Natural language processing capabilities</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>24/7 automated customer engagement</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Seamless CRM and platform integration</li>
+                      </ul>
+                      <div className="livechat-options d-flex align-items-center flex-wrap">
+                        <div className="livechat_button">
+                          <Link href="/ai-chatbot" className="template-btn btn-style-one">
+                            <span className="btn-wrap"><span className="text-one">Learn more</span><span className="text-two">Learn more</span></span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_chat-outer">
+                      <div className="conversation-one_image"><img src="/assets/images/resource/chats.png" alt="AI Chatbot" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="row clearfix">
+                  <div className="conversation-one_content-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_content-outer">
+                      <div className="sec-title style-two">
+                        <div className="sec-title_title">HOSPITALITY SOLUTIONS</div>
+                        <h2 className="sec-title_heading">Transform Hospitality with <span>AI Hotel PMS</span></h2>
+                        <div className="sec-title_text">A centralized system connecting your front desk and guests. Staff check availability via internal chat while guests enjoy automated check-ins.</div>
+                      </div>
+                      <ul className="livechat-list">
+                        <li><i className="fa-solid fa-check fa-fw"></i>Internal command chat for hotel staff</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Real-time guest availability inquiries</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Automated digital financial tracking</li>
+                      </ul>
+                      <div className="livechat-options d-flex align-items-center flex-wrap">
+                        <div className="livechat_button">
+                          <Link href="/hotel-pms" className="template-btn btn-style-one">
+                            <span className="btn-wrap"><span className="text-one">Learn more</span><span className="text-two">Learn more</span></span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_chat-outer">
+                      <div className="conversation-one_image"><img src="/assets/images/resource/skill.png" alt="Hotel PMS" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="row clearfix">
+                  <div className="conversation-one_content-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_content-outer">
+                      <div className="sec-title style-two">
+                        <div className="sec-title_title">E-COMMERCE EXCELLENCE</div>
+                        <h2 className="sec-title_heading">Drive Sales with <span>E-commerce AI</span></h2>
+                        <div className="sec-title_text">Analyzes customer behavior in real-time to suggest relevant products and answer stock queries instantly. High conversion driven by smart upsells.</div>
+                      </div>
+                      <ul className="livechat-list">
+                        <li><i className="fa-solid fa-check fa-fw"></i>Smart product recommendation engine</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Automated cart recovery system</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Real-time live stock inventory access</li>
+                      </ul>
+                      <div className="livechat-options d-flex align-items-center flex-wrap">
+                        <div className="livechat_button">
+                          <Link href="/ecommerce-sale-bot" className="template-btn btn-style-one">
+                            <span className="btn-wrap"><span className="text-one">Learn more</span><span className="text-two">Learn more</span></span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_chat-outer">
+                      <div className="conversation-one_image"><img src="/assets/images/resource/chats.png" alt="E-commerce AI" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="row clearfix">
+                  <div className="conversation-one_content-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_content-outer">
+                      <div className="sec-title style-two">
+                        <div className="sec-title_title">FINANCIAL INTELLIGENCE</div>
+                        <h2 className="sec-title_heading">Financial Management <span>AI Transformation</span></h2>
+                        <div className="sec-title_text">Revolutionize financial operations with AI-powered analytics and automation. Eliminate manual spreadsheets and manage all financial data digitally.</div>
+                      </div>
+                      <ul className="livechat-list">
+                        <li><i className="fa-solid fa-check fa-fw"></i>Automated transaction processing</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Predictive financial analytics</li>
+                        <li><i className="fa-solid fa-check fa-fw"></i>Real-time financial reporting dashboards</li>
+                      </ul>
+                      <div className="livechat-options d-flex align-items-center flex-wrap">
+                        <div className="livechat_button">
+                          <Link href="/financial-management" className="template-btn btn-style-one">
+                            <span className="btn-wrap"><span className="text-one">Learn more</span><span className="text-two">Learn more</span></span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="conversation-one_chat-outer">
+                      <div className="conversation-one_image"><img src="/assets/images/resource/skill.png" alt="Financial AI" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clients One */}
+      <section className="clients-one">
+        <div className="auto-container">
+          <div className="inner-container">
+            {/* Sec Title */}
+            <div className="sec-title style-two light centered">
+              <div className="sec-title_title">Trusted partnerships</div>
+              <h2 className="sec-title_heading"><span>Trusted 3000+</span> businesses <br /> & online stores</h2>
+            </div>
+            <div className="clients-box_one">
+              <div className="animation_mode">
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/1.png" alt="" />
+                  </a>
+                </div>
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/2.png" alt="" />
+                  </a>
+                </div>
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/3.png" alt="" />
+                  </a>
+                </div>
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/4.png" alt="" />
+                  </a>
+                </div>
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/5.png" alt="" />
+                  </a>
+                </div>
+
+                {/* Client Box */}
+                <div className="clients-box">
+                  <a href="#">
+                    <img src="/assets/images/clients/6.png" alt="" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End Clients One */}
+
+      <br /><br /><br /><br />
+
+      {/* Testimonial Two */}
+      <section className="testimonial-two">
+        <div className="auto-container">
+          {/* Sec Title */}
+          <div className="sec-title style-two">
+            <div className="sec-title_title">TESTIMONIAL</div>
+            <h2 className="sec-title_heading">What our respectable <br /> <span>clients says</span></h2>
+          </div>
+          <div className="inner-container">
+            <div className="single-item_carousel swiper-container">
+              <div className="swiper-wrapper">
+
+                {/* Slide */}
+                <div className="swiper-slide">
+                  {/* Testimonial Block Two */}
+                  <div className="testimonial-block_two">
+                    <div className="testimonial-block_two-inner">
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="testimonial-block_two-content-column col-lg-7 col-md-12 col-sm-12">
+                          <div className="testimonial-block_two-content-outer">
+                            <div className="testimonial-block_two-rating">
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                            </div>
+                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-author_box">
+                              <div className="testimonial-block_two-author-image">
+                                <img src="/assets/images/resource/author-5.png" alt="" />
+                              </div>
+                              Sara Ven <span>Social Media Manger</span>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="testimonial-block_two-image-column col-lg-5 col-md-8 col-sm-12">
+                          <div className="testimonial-block_two-image-outer">
+                            <div className="testimonial-block_two-quote fa-solid fa-quote-left fa-fw"></div>
+                            <div className="testimonial-block_two-image">
+                              <img src="/assets/images/resource/testimonial.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                {/* Slide */}
+                <div className="swiper-slide">
+                  {/* Testimonial Block Two */}
+                  <div className="testimonial-block_two">
+                    <div className="testimonial-block_two-inner">
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="testimonial-block_two-content-column col-lg-7 col-md-12 col-sm-12">
+                          <div className="testimonial-block_two-content-outer">
+                            <div className="testimonial-block_two-rating">
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                            </div>
+                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-author_box">
+                              <div className="testimonial-block_two-author-image">
+                                <img src="/assets/images/resource/author-5.png" alt="" />
+                              </div>
+                              Sara Ven <span>Social Media Manger</span>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="testimonial-block_two-image-column col-lg-5 col-md-8 col-sm-12">
+                          <div className="testimonial-block_two-image-outer">
+                            <div className="testimonial-block_two-quote fa-solid fa-quote-left fa-fw"></div>
+                            <div className="testimonial-block_two-image">
+                              <img src="/assets/images/resource/testimonial.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                {/* Slide */}
+                <div className="swiper-slide">
+                  {/* Testimonial Block Two */}
+                  <div className="testimonial-block_two">
+                    <div className="testimonial-block_two-inner">
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="testimonial-block_two-content-column col-lg-7 col-md-12 col-sm-12">
+                          <div className="testimonial-block_two-content-outer">
+                            <div className="testimonial-block_two-rating">
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                              <span className="fa fa-star"></span>
+                            </div>
+                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-author_box">
+                              <div className="testimonial-block_two-author-image">
+                                <img src="/assets/images/resource/author-5.png" alt="" />
+                              </div>
+                              Sara Ven <span>Social Media Manger</span>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="testimonial-block_two-image-column col-lg-5 col-md-8 col-sm-12">
+                          <div className="testimonial-block_two-image-outer">
+                            <div className="testimonial-block_two-quote fa-solid fa-quote-left fa-fw"></div>
+                            <div className="testimonial-block_two-image">
+                              <img src="/assets/images/resource/testimonial.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          {/* If we need pagination */}
+          <div className="single-item_carousel-pagination"></div>
+
+          <div className="testimonial-two_arrows">
+            {/* If we need navigation buttons */}
+            <div className="single-item_carousel-prev fa-solid fa-angle-left fa-fw"></div>
+            <div className="single-item_carousel-next fa-solid fa-angle-right fa-fw"></div>
+          </div>
+
+        </div>
+      </section>
+      {/* End Testimonial Two */}
+
+      {/* Tools One */}
+      <section className="tools-one">
+        <div className="tools-one_shadow" style={{ backgroundImage: 'url(/assets/images/background/tools-one_shadow.png)' }}></div>
+        <div className="tools-one_bg" style={{ backgroundImage: 'url(/assets/images/background/tools-bg.png)' }}></div>
+        <div className="tools-one_bg-two" style={{ backgroundImage: 'url(/assets/images/background/testimonial-one_bg.png)' }}></div>
+        <div className="auto-container">
+          {/* Sec Title */}
+          <div className="sec-title style-two centered">
+            <div className="sec-title_title">Integrations</div>
+            <h2 className="sec-title_heading">Incorporate our tool into <br /> your <span>everyday tasks</span></h2>
+          </div>
+          <div className="animation_mode_three clearfix">
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-15.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Discord</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-16.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Telegram</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-17.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Whatsapp</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-18.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Messenger</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-19.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Pinterest</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+            {/* Social Block One */}
+            <div className="social-block_one">
+              <div className="social-block_one-inner">
+                <div className="social-block_one-icon">
+                  <i><img src="/assets/images/icons/social-20.png" alt="" /></i>
+                </div>
+                <h5 className="social-block_one-title"><a href="#">Zoom</a></h5>
+                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
+                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="tools-one_button text-center">
+            <Link href="/about" className="template-btn btn-style-one">
+              <span className="btn-wrap">
+                <span className="text-one">Learn more</span>
+                <span className="text-two">Learn more</span>
+              </span>
+            </Link>
+          </div>
+
+        </div>
+      </section>
+      {/* End Tools One */}
+
+      {/* News One */}
+      <section className="news-one style-two">
+        <div className="news-one_shadow-two" style={{ backgroundImage: 'url(/assets/images/background/news-shadow-2.png)' }}></div>
+        <div className="auto-container">
+          {/* Sec Title */}
+          <div className="sec-title style-two">
+            <div className="d-flex justify-content-between align-items-end flex-wrap">
+              <div className="left-box">
+                <div className="sec-title_title">OUR BLOG</div>
+                <h2 className="sec-title_heading">Read our latest <span>blogs</span></h2>
+              </div>
+              <div className="news-two_button">
+                <div className="livechat_button">
+                  <Link href="/about" className="template-btn btn-style-one">
+                    <span className="btn-wrap">
+                      <span className="text-one">Learn more</span>
+                      <span className="text-two">Learn more</span>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="three-item_carousel swiper-container">
+            <div className="swiper-wrapper">
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* News Block One */}
+                <div className="news-block_one">
+                  <div className="news-block_one-inner">
+                    <div className="news-block_one-image">
+                      <Link href="/blog"><img src="/assets/images/resource/news-1.jpg" alt="" /></Link>
+                    </div>
+                    <div className="news-block_one-content">
+                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                      <h5 className="news-block_one-title"><Link href="/blog">Transforming industries and shaping the future</Link></h5>
+                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* News Block One */}
+                <div className="news-block_one">
+                  <div className="news-block_one-inner">
+                    <div className="news-block_one-image">
+                      <Link href="/blog"><img src="/assets/images/resource/news-2.jpg" alt="" /></Link>
+                    </div>
+                    <div className="news-block_one-content">
+                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                      <h5 className="news-block_one-title"><Link href="/blog">Exploring the cutting-edge of artificial intelligence</Link></h5>
+                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Slide */}
+              <div className="swiper-slide">
+                {/* News Block One */}
+                <div className="news-block_one">
+                  <div className="news-block_one-inner">
+                    <div className="news-block_one-image">
+                      <Link href="/blog"><img src="/assets/images/resource/news-3.jpg" alt="" /></Link>
+                    </div>
+                    <div className="news-block_one-content">
+                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                      <h5 className="news-block_one-title"><Link href="/blog">Understanding the basics of artificial intelligence</Link></h5>
+                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            {/* If we need pagination */}
+            <div className="three-item_carousel-pagination"></div>
+          </div>
+        </div>
+      </section>
+      {/* End News One */}
+    </>
   );
 }

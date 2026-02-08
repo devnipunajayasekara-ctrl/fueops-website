@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force navigation link visibility overrides */
+.main-header .navigation > li > a {
+  color: var(--color-three, #BDBDBD) !important;
+}
+
+.main-header.alternate .navigation > li > a {
+  color: var(--color-four, #0F0F0F) !important;
+}
+
+.main-header .navigation > li:hover > a,
+.main-header .navigation > li.current > a {
+  color: var(--main-color, #761FE3) !important;
+}
