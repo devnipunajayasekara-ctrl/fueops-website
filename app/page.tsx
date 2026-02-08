@@ -29,7 +29,7 @@ export default function Home() {
               </span>
             </h1>
 
-            <p className="relative z-20 text-lg md:text-2xl !text-[#f0f0f0] font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="relative z-20 !text-xs md:!text-sm !text-[#f0f0f0] font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
               Transform your business operations with FueOps cutting-edge AI technology, designed for speed, precision, and scalability.
             </p>
 
