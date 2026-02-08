@@ -9,9 +9,13 @@ export default function Home() {
       {/* Banner One */}
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-[#0a0a0a]">
         {/* Background Gradients */}
+        {/* Background Gradients */}
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1a0b2e] via-[#0a0a0a] to-[#0a0a0a]"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#761FE3] rounded-full blur-[150px] opacity-10 pointer-events-none animate-blob"></div>
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#D093E8] rounded-full blur-[180px] opacity-5 pointer-events-none animate-blob animation-delay-2000"></div>
+
+        {/* Animated Background Elements (Optional for "Antigravity" feel) */}
+        <MouseParticles />
 
         <div className="auto-container relative z-10 text-center pt-20">
           <div className="inner-container max-w-4xl mx-auto">
@@ -25,7 +29,7 @@ export default function Home() {
               </span>
             </h1>
 
-            <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="relative z-20 text-lg md:text-2xl !text-[#f0f0f0] font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
               Transform your business operations with FueOps cutting-edge AI technology, designed for speed, precision, and scalability.
             </p>
 
@@ -40,9 +44,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* Animated Background Elements (Optional for "Antigravity" feel) */}
-        <MouseParticles />
       </section>
       {/* End Main Banner One */}
       {/* End Main Banner One */}
