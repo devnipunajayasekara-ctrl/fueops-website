@@ -139,3 +139,10 @@ body {
     display: block !important;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .cursor,
+  .cursor-follower {
+    display: none !important;
+  }
+}
