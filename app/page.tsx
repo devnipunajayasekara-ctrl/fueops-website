@@ -2,6 +2,9 @@ import Link from 'next/link';
 import ServicesCarousel from '../components/ServicesCarousel';
 import MouseParticles from '../components/MouseParticles';
 
+import VoiceAssistant from '@/components/VoiceAssistant';
+import TextingAnimation from '@/components/TextingAnimation';
+
 export default function Home() {
   return (
     <>
@@ -65,16 +68,12 @@ export default function Home() {
       {/* Business Automation */}
       <section className="livechat">
         <div className="auto-container">
-          <div className="row clearfix">
+          <div className="row clearfix items-center">
 
             {/* Image Column */}
             <div className="livechat_image-column col-lg-6 col-md-12 col-sm-12">
-              <div className="livechat_image-outer">
-                <div className="livechat-agent"><i><img src="/assets/images/icons/livechat-stars.png" alt="" /></i></div>
-                <div className="livechat-layer" style={{ backgroundImage: 'url(/assets/images/background/service-three_bg.png)' }}></div>
-                <div className="livechat-icon" style={{ backgroundImage: 'url(/assets/images/icons/livechat-icon.png)' }}></div>
-                <div className="color-layer"></div>
-                <img src="/assets/images/resource/livechat.png" alt="FueOps AI Chatbot" />
+              <div className="relative w-full max-w-[500px] ml-auto lg:mr-0">
+                <VoiceAssistant />
               </div>
             </div>
 
@@ -120,11 +119,11 @@ export default function Home() {
               <div className="sec-title_title">why choose us</div>
               <h2 className="sec-title_heading">Trusted by innovative companies <br /> <span>worldwide</span></h2>
             </div>
-            <div className="row clearfix">
+            <div className="row clearfix !flex !flex-wrap">
 
               {/* Counter Block Two */}
               <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
-                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div className="counter-block_two-inner wow fadeInLeft !h-full" data-wow-delay="0ms" data-wow-duration="1500ms">
                   <div className="color-layer"></div>
                   <div className="counter-block_two-count"><span className="odometer" data-count="10"></span><i>+</i></div>
                   <h5 className="counter-block_two-title">Enterprise Clients</h5>
@@ -134,7 +133,7 @@ export default function Home() {
 
               {/* Counter Block Two */}
               <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
-                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+                <div className="counter-block_two-inner wow fadeInLeft !h-full" data-wow-delay="150ms" data-wow-duration="1500ms">
                   <div className="color-layer"></div>
                   <div className="counter-block_two-count"><span className="odometer" data-count="1"></span><i>M+</i></div>
                   <h5 className="counter-block_two-title">AI Interactions</h5>
@@ -144,7 +143,7 @@ export default function Home() {
 
               {/* Counter Block Two */}
               <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
-                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div className="counter-block_two-inner wow fadeInLeft !h-full" data-wow-delay="300ms" data-wow-duration="1500ms">
                   <div className="color-layer"></div>
                   <div className="counter-block_two-count"><span className="odometer" data-count="0"></span><i></i></div>
                   <h5 className="counter-block_two-title">Manual Sheets</h5>
@@ -154,7 +153,7 @@ export default function Home() {
 
               {/* Counter Block Two */}
               <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
-                <div className="counter-block_two-inner wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
+                <div className="counter-block_two-inner wow fadeInLeft !h-full" data-wow-delay="450ms" data-wow-duration="1500ms">
                   <div className="color-layer"></div>
                   <div className="counter-block_two-count"><span className="odometer" data-count="99"><i>%</i></span></div>
                   <h5 className="counter-block_two-title">Satisfaction</h5>
@@ -198,8 +197,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="conversation-one_chat-outer">
-                      <div className="conversation-one_image"><img src="/assets/images/resource/chats.png" alt="AI Chatbot" /></div>
+                    <div className="relative w-full max-w-[400px] mx-auto lg:mr-0 pl-8">
+                      <TextingAnimation />
                     </div>
                   </div>
                 </div>
