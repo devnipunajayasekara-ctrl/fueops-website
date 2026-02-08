@@ -67,30 +67,38 @@ export default function MouseParticles() {
 
     const calculateTransform = (p: typeof particles[0], index: number) => {
         // Disable mouse follow on mobile/tablet (width < 1024px)
-        if (!mounted || windowSize.width < 1024 || (mousePosition.x === 0 && mousePosition.y === 0)) {
+        if (!mounted || windowSize.width < 1024) {
             return 'translate(0px, 0px)';
         }
 
         const initialX = (p.left / 100) * windowSize.width;
         const initialY = (p.top / 100) * windowSize.height;
 
-        // Directional Swarm Logic
-        // Calculate offset based on original position relative to center (50%)
-        // This ensures particles on the left stay on the left relative to cursor
-        const relativeX = (p.left - 50) * 9; // Increased multiplier for wider spread
-        const relativeY = (p.top - 50) * 9;  // Increased multiplier for wider spread
+        // If mouse is not in hero or at 0,0, just use minor float animation (handled by CSS)
+        if (mousePosition.x === 0 && mousePosition.y === 0) {
+            return 'translate(0px, 0px)';
+        }
 
-        const targetX = mousePosition.x + relativeX;
-        const targetY = mousePosition.y + relativeY;
+        // Full Screen Parallax / Magnetic Effect
+        // Instead of gathering around the mouse, particles stay in their global spots
+        // but react to the mouse position by moving slightly towards/away from it.
 
-        // Calculate delta needed to move from Initial to Target
-        const deltaX = targetX - initialX;
-        const deltaY = targetY - initialY;
+        // Calculate distance from particle to mouse
+        const dx = mousePosition.x - initialX;
+        const dy = mousePosition.y - initialY;
 
-        // Apply a smooth easing or magnetic pull factor (0.1 to 1)
-        const strength = 0.8;
+        // Parallax factor: taller/larger particles might move more (optional), 
+        // effectively creating depth.
+        // We divide by a large number to make the movement subtle but noticeable.
+        // Negative factor makes them move AWAY from mouse (depth background), 
+        // Positive makes them move TOWARDS mouse (foreground).
 
-        return `translate(${deltaX * strength}px, ${deltaY * strength}px)`;
+        const movementFactor = 0.05; // 5% of distance
+
+        const moveX = dx * movementFactor;
+        const moveY = dy * movementFactor;
+
+        return `translate(${moveX}px, ${moveY}px)`;
     };
 
     return (
