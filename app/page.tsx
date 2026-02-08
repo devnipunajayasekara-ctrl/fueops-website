@@ -311,7 +311,7 @@ export default function Home() {
             {/* Sec Title */}
             <div className="sec-title style-two light centered">
               <div className="sec-title_title">Trusted partnerships</div>
-              <h2 className="sec-title_heading"><span>Trusted 3000+</span> businesses <br /> & online stores</h2>
+              <h2 className="sec-title_heading"><span>Trusted 10+</span> businesses <br /></h2>
             </div>
             <div className="clients-box_one">
               <div className="animation_mode">
@@ -395,7 +395,7 @@ export default function Home() {
                               <span className="fa fa-star"></span>
                               <span className="fa fa-star"></span>
                             </div>
-                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-text">FueOps transformed our hotel operations completely. The AI-powered PMS eliminated all our manual spreadsheets and automated guest check-ins. Our front desk staff can now focus on creating memorable experiences instead of paperwork. Response times improved by 70%, and our guest satisfaction scores have never been higher.</div>
                             <div className="testimonial-block_two-author_box">
                               <div className="testimonial-block_two-author-image">
                                 <img src="/assets/images/resource/author-5.png" alt="" />
@@ -435,7 +435,7 @@ export default function Home() {
                               <span className="fa fa-star"></span>
                               <span className="fa fa-star"></span>
                             </div>
-                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-text">Since implementing FueOps' e-commerce AI chatbot, our conversion rate jumped 45%. The intelligent product recommendations and instant inventory responses handle 80% of customer inquiries automatically. It's like having a sales team that never sleeps, and our customers love the instant, accurate responses.</div>
                             <div className="testimonial-block_two-author_box">
                               <div className="testimonial-block_two-author-image">
                                 <img src="/assets/images/resource/author-5.png" alt="" />
@@ -475,7 +475,7 @@ export default function Home() {
                               <span className="fa fa-star"></span>
                               <span className="fa fa-star"></span>
                             </div>
-                            <div className="testimonial-block_two-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare maximus ante.</div>
+                            <div className="testimonial-block_two-text">The financial management AI from FueOps revolutionized our accounting workflow. We went from managing dozens of Excel files to a unified digital platform with real-time analytics. Transaction processing is automated, reporting is instant, and we've reduced financial errors to virtually zero. This system paid for itself in three months.</div>
                             <div className="testimonial-block_two-author_box">
                               <div className="testimonial-block_two-author-image">
                                 <img src="/assets/images/resource/author-5.png" alt="" />
@@ -517,103 +517,7 @@ export default function Home() {
       {/* End Testimonial Two */}
 
       {/* Tools One */}
-      <section className="tools-one">
-        <div className="tools-one_shadow" style={{ backgroundImage: 'url(/assets/images/background/tools-one_shadow.png)' }}></div>
-        <div className="tools-one_bg" style={{ backgroundImage: 'url(/assets/images/background/tools-bg.png)' }}></div>
-        <div className="tools-one_bg-two" style={{ backgroundImage: 'url(/assets/images/background/testimonial-one_bg.png)' }}></div>
-        <div className="auto-container">
-          {/* Sec Title */}
-          <div className="sec-title style-two centered">
-            <div className="sec-title_title">Integrations</div>
-            <h2 className="sec-title_heading">Incorporate our tool into <br /> your <span>everyday tasks</span></h2>
-          </div>
-          <div className="animation_mode_three clearfix">
 
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-15.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Discord</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-16.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Telegram</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-17.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Whatsapp</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-18.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Messenger</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-19.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Pinterest</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-            {/* Social Block One */}
-            <div className="social-block_one">
-              <div className="social-block_one-inner">
-                <div className="social-block_one-icon">
-                  <i><img src="/assets/images/icons/social-20.png" alt="" /></i>
-                </div>
-                <h5 className="social-block_one-title"><a href="#">Zoom</a></h5>
-                <div className="social-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.</div>
-                <a className="social-block_one-more" href="#">Learn more <i className="fa-solid fa-plus fa-fw"></i></a>
-              </div>
-            </div>
-
-          </div>
-
-          <div className="tools-one_button text-center">
-            <Link href="/about" className="template-btn btn-style-one">
-              <span className="btn-wrap">
-                <span className="text-one">Learn more</span>
-                <span className="text-two">Learn more</span>
-              </span>
-            </Link>
-          </div>
-
-        </div>
-      </section>
       {/* End Tools One */}
 
       {/* News One */}
@@ -639,63 +543,56 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="three-item_carousel swiper-container">
-            <div className="swiper-wrapper">
+          <div className="row clearfix">
 
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* News Block One */}
-                <div className="news-block_one">
-                  <div className="news-block_one-inner">
-                    <div className="news-block_one-image">
-                      <Link href="/blog"><img src="/assets/images/resource/news-1.jpg" alt="" /></Link>
-                    </div>
-                    <div className="news-block_one-content">
-                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
-                      <h5 className="news-block_one-title"><Link href="/blog">Transforming industries and shaping the future</Link></h5>
-                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
-                    </div>
+            {/* News Block One */}
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="news-block_one">
+                <div className="news-block_one-inner">
+                  <div className="news-block_one-image">
+                    <Link href="/blog"><img src="/assets/images/resource/news-1.jpg" alt="" /></Link>
+                  </div>
+                  <div className="news-block_one-content">
+                    <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                    <h5 className="news-block_one-title"><Link href="/blog">Transforming industries and shaping the future</Link></h5>
+                    <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
                   </div>
                 </div>
               </div>
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* News Block One */}
-                <div className="news-block_one">
-                  <div className="news-block_one-inner">
-                    <div className="news-block_one-image">
-                      <Link href="/blog"><img src="/assets/images/resource/news-2.jpg" alt="" /></Link>
-                    </div>
-                    <div className="news-block_one-content">
-                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
-                      <h5 className="news-block_one-title"><Link href="/blog">Exploring the cutting-edge of artificial intelligence</Link></h5>
-                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Slide */}
-              <div className="swiper-slide">
-                {/* News Block One */}
-                <div className="news-block_one">
-                  <div className="news-block_one-inner">
-                    <div className="news-block_one-image">
-                      <Link href="/blog"><img src="/assets/images/resource/news-3.jpg" alt="" /></Link>
-                    </div>
-                    <div className="news-block_one-content">
-                      <div className="news-block_one-time">By Admin <span>6 min read</span></div>
-                      <h5 className="news-block_one-title"><Link href="/blog">Understanding the basics of artificial intelligence</Link></h5>
-                      <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             </div>
-            {/* If we need pagination */}
-            <div className="three-item_carousel-pagination"></div>
+
+            {/* News Block One */}
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="news-block_one">
+                <div className="news-block_one-inner">
+                  <div className="news-block_one-image">
+                    <Link href="/blog"><img src="/assets/images/resource/news-2.jpg" alt="" /></Link>
+                  </div>
+                  <div className="news-block_one-content">
+                    <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                    <h5 className="news-block_one-title"><Link href="/blog">Exploring the cutting-edge of artificial intelligence</Link></h5>
+                    <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* News Block One */}
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="news-block_one">
+                <div className="news-block_one-inner">
+                  <div className="news-block_one-image">
+                    <Link href="/blog"><img src="/assets/images/resource/news-3.jpg" alt="" /></Link>
+                  </div>
+                  <div className="news-block_one-content">
+                    <div className="news-block_one-time">By Admin <span>6 min read</span></div>
+                    <h5 className="news-block_one-title"><Link href="/blog">Understanding the basics of artificial intelligence</Link></h5>
+                    <Link className="news-block_one-more" href="/blog">Read more <i className="fa-solid fa-plus fa-fw"></i></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

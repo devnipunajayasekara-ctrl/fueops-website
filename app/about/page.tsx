@@ -205,7 +205,7 @@ export default function About() {
                     {/* Sec Title */}
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Success Stories</div>
-                        <h2 className="sec-title_heading">Our clients share their <br /> fitness <span>journey</span></h2>
+                        <h2 className="sec-title_heading">Our clients share their <br /> business <span>transformation</span></h2>
                     </div>
 
                     <div className="three-item_carousel swiper-container">
@@ -223,7 +223,7 @@ export default function About() {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">Working with FueOps was a game-changer for our boutique hotel chain. Their AI system understands our brand voice perfectly and handles everything from booking inquiries to special requests. The implementation was seamless, and the team provided exceptional <span>support throughout</span>. Highly recommended!</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
                                                 <img src="/assets/images/resource/author-2.png" alt="" />
@@ -246,7 +246,7 @@ export default function About() {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">FueOps delivered exactly what they promised. The AI chatbot integrated perfectly with our inventory system and CRM. Customer satisfaction improved dramatically, and we're processing three times more inquiries with the same <span>support team</span>. The ROI was evident within the first month.</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
                                                 <img src="/assets/images/resource/author-3.png" alt="" />
@@ -269,7 +269,7 @@ export default function About() {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">As a multi-location business, we needed consistency across all touchpoints. FueOps' AI solutions provided unified automation that maintains our brand standards while adapting to <span>local needs</span>. The financial management module alone saved us countless hours of manual reconciliation work.</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
                                                 <img src="/assets/images/resource/author-4.png" alt="" />
