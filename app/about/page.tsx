@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
+import TrustedClients from '@/components/TrustedClients';
+import VoiceAssistant from '@/components/VoiceAssistant'; // Keeping this if strictly not used, cleanup later
+import GlobalNetworkAnimation from '@/components/GlobalNetworkAnimation';
 
 export default function About() {
     return (
@@ -27,9 +30,30 @@ export default function About() {
 
                         {/* Image Column */}
                         <div className="story-one_image-column col-lg-6 col-md-12 col-sm-12">
-                            <div className="story-one_image-outer">
-                                <div className="story-one_image">
-                                    <img src="/assets/images/resource/story.png" alt="FueOps AI Innovation Story" />
+                            <div className="relative w-full max-w-[500px] mx-auto lg:ml-0">
+                                <GlobalNetworkAnimation />
+                                <div className="mt-8 flex flex-col items-center gap-6">
+                                    <Link href="/contact" className="template-btn btn-style-one !scale-75 origin-center">
+                                        <span className="btn-wrap">
+                                            <span className="text-one">Let's Talk</span>
+                                            <span className="text-two">Let's Talk</span>
+                                        </span>
+                                    </Link>
+
+                                    <div className="flex gap-4 items-center justify-center">
+                                        <a href="#" className="group flex items-center justify-center w-10 h-10 rounded-full bg-[#761FE3] text-white hover:bg-white transition-all duration-300">
+                                            <i className="fa-brands fa-facebook-f group-hover:text-[#761FE3] transition-colors duration-300"></i>
+                                        </a>
+                                        <a href="#" className="group flex items-center justify-center w-10 h-10 rounded-full bg-[#761FE3] text-white hover:bg-white transition-all duration-300">
+                                            <i className="fa-brands fa-twitter group-hover:text-[#761FE3] transition-colors duration-300"></i>
+                                        </a>
+                                        <a href="#" className="group flex items-center justify-center w-10 h-10 rounded-full bg-[#761FE3] text-white hover:bg-white transition-all duration-300">
+                                            <i className="fa-brands fa-linkedin-in group-hover:text-[#761FE3] transition-colors duration-300"></i>
+                                        </a>
+                                        <a href="#" className="group flex items-center justify-center w-10 h-10 rounded-full bg-[#761FE3] text-white hover:bg-white transition-all duration-300">
+                                            <i className="fa-brands fa-instagram group-hover:text-[#761FE3] transition-colors duration-300"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -191,69 +215,14 @@ export default function About() {
             </section>
             {/* End Team One */}
 
-            {/* Testimonial Two */}
-            <section className="testimonial-two">
-                <div className="auto-container">
-                    {/* Sec Title */}
-                    <div className="sec-title style-two">
-                        <div className="sec-title_title">Success Stories</div>
-                        <h2 className="sec-title_heading">Our clients share their <br /> business <span className="animate-text-gradient">transformation</span></h2>
-                    </div>
-                    <TestimonialCarousel />
-                </div>
-            </section>
-            {/* End Testimonial Two */}
+
 
             {/* Clients Two */}
-            <section className="clients-two">
-                <div className="auto-container">
-                    {/* Sec Title */}
-                    <div className="sec-title centered">
-                        <div className="sec-title_title">Trusted Organizations</div>
-                    </div>
-                    <div className="clients_slider swiper-container">
-                        <div className="swiper-wrapper">
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                <div className="client-image">
-                                    <Link href="#"><img src="/assets/images/clients/1.png" alt="" /></Link>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                <div className="client-image">
-                                    <Link href="#"><img src="/assets/images/clients/2.png" alt="" /></Link>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                <div className="client-image">
-                                    <Link href="#"><img src="/assets/images/clients/3.png" alt="" /></Link>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                <div className="client-image">
-                                    <Link href="#"><img src="/assets/images/clients/4.png" alt="" /></Link>
-                                </div>
-                            </div>
-
-                            {/* Slide */}
-                            <div className="swiper-slide">
-                                <div className="client-image">
-                                    <Link href="#"><img src="/assets/images/clients/5.png" alt="" /></Link>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* End Clients Two */}
+            {/* Clients One */}
+            {/* Clients One */}
+            <TrustedClients />
+            {/* End Clients One */}
+            {/* End Clients One */}
         </>
     );
 }
