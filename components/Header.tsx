@@ -61,6 +61,7 @@ export default function Header() {
                         <li className={`dropdown ${pathname?.startsWith('/products') ? "current" : ""}`}><Link href="/products">Products</Link>
                           <ul>
                             <li><Link href="/products">All Products</Link></li>
+                            <li><Link href="/products/ops-360-pms">OPS 360 PMS</Link></li>
                             <li><Link href="/products/hotel-pms">AI Hotel PMS</Link></li>
                             <li><Link href="/products/ecommerce-sale-bot">E-Commerce Bot</Link></li>
                             <li><Link href="/products/ai-chatbot">AI Chatbot</Link></li>

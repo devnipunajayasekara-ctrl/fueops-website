@@ -104,6 +104,23 @@ export default function ServicesCarousel() {
                 </div>
             </SwiperSlide>
 
+            {/* Slide 5 - Ops 360 PMS */}
+            <SwiperSlide>
+                <div className="service-block_three">
+                    <div className="service-block_three-inner">
+                        <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
+                        <div className="service-block_three-circles" style={{ backgroundImage: 'url(/assets/images/icons/service-three_circle.png)' }}></div>
+                        <div className="color-layer"></div>
+                        <div className="service-block_three-icon">
+                            <i className="icon-seo"></i>
+                        </div>
+                        <h5 className="service-block_three-heading"><Link href="/products/ops-360-pms">Ops 360 PMS</Link></h5>
+                        <div className="service-block_three-text">All-in-one hotel operations platform. Channel manager, PMS, front desk, and POS unified with AI chat. Staff check availability via chat, management tracks revenue instantly—zero manual work.</div>
+                        <Link className="service-block_three-more" href="/products/ops-360-pms">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
+                    </div>
+                </div>
+            </SwiperSlide>
+
             <div className="three-item_carousel-pagination"></div>
         </Swiper>
     );

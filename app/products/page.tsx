@@ -71,6 +71,21 @@ export default function ProductsPage() {
                             </div>
                         </div>
 
+                        {/* Service Block One - Ops 360 PMS */}
+                        <div className="service-block_one col-lg-4 col-md-6 col-sm-12">
+                            <div className="service-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="service-block_one-icon">
+                                    <i className="icon-seo"></i>
+                                </div>
+                                <h5 className="service-block_one-heading"><Link href="/products/ops-360-pms">Ops 360 PMS</Link></h5>
+                                <div className="service-block_one-text">All-in-one hotel operations platform. Channel manager, PMS, front desk, and POS unified with AI chat. <span>Staff and management</span> access everything via intelligent assistant—zero manual work.</div>
+                                <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
+                                    <div className="service-block_one-number">04</div>
+                                    <Link className="service-block_one-join" href="/products/ops-360-pms">Learn More <i className="fa-solid fa-plus fa-fw"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+
                         {/* Service Block One */}
                         <div className="service-block_one col-lg-4 col-md-6 col-sm-12">
                             <div className="service-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -80,7 +95,7 @@ export default function ProductsPage() {
                                 <h5 className="service-block_one-heading"><Link href="/services">Custom AI Development</Link></h5>
                                 <div className="service-block_one-text">Beyond products, we offer standalone software services. We build <span>tailored AI solutions</span> to fit your unique business infrastructure and transformation goals.</div>
                                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                                    <div className="service-block_one-number">04</div>
+                                    <div className="service-block_one-number">05</div>
                                     <Link className="service-block_one-join" href="/services">Get Quote <i className="fa-solid fa-plus fa-fw"></i></Link>
                                 </div>
                             </div>
@@ -128,7 +143,7 @@ export default function ProductsPage() {
                             <div className="counter-block_one col-lg-4 col-md-6 col-sm-12">
                                 <div className="counter-block_one-inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <div className="counter-block_one-icon fa-solid fa-star fa-fw"></div>
-                                    <div className="counter-block_one-count"><span className="odometer" data-count="99%"></span><i>+</i></div>
+                                    <div className="counter-block_one-count"><span className="odometer" data-count="99"></span><i>%</i></div>
                                     <div className="counter-block_one-text">Client satisfaction rate for our Hotel & Finance systems.</div>
                                 </div>
                             </div>

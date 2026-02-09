@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 import ScrollToTop from "@/components/ScrollToTop";
+import OdometerInit from "@/components/OdometerInit";
 
 export const metadata: Metadata = {
   title: "FueOps - AI Software Solutions",
@@ -42,6 +43,7 @@ export default function RootLayout({
         </div>
 
         <ScrollToTop />
+        <OdometerInit />
 
         {/* Scripts */}
         <Script src="/assets/js/jquery.js" strategy="beforeInteractive" />

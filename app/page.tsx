@@ -155,9 +155,9 @@ export default function Home() {
               <div className="counter-block_two col-lg-3 col-md-6 col-sm-6">
                 <div className="counter-block_two-inner wow fadeInLeft !h-full" data-wow-delay="450ms" data-wow-duration="1500ms">
                   <div className="color-layer"></div>
-                  <div className="counter-block_two-count"><span className="odometer" data-count="99"><i>%</i></span></div>
+                  <div className="counter-block_two-count"><span className="odometer" data-count="99"></span><i>%</i></div>
                   <h5 className="counter-block_two-title">Satisfaction</h5>
-                  <div className="counter-block_two-text">Braine is the leading chat tool.</div>
+                  <div className="counter-block_two-text">Client satisfaction rate with FueOps AI automation solutions.</div>
                 </div>
               </div>
 
@@ -319,42 +319,42 @@ export default function Home() {
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/1.png" alt="" />
+                    <img src="/assets/images/clients/weligamabeach.png" alt="" />
                   </a>
                 </div>
 
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/2.png" alt="" />
+                    <img src="/assets/images/clients/98restaurant.png" alt="98restaurant" />
                   </a>
                 </div>
 
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/3.png" alt="" />
+                    <img src="/assets/images/clients/epictours.png" alt="epictour" />
                   </a>
                 </div>
 
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/4.png" alt="" />
+                    <img src="/assets/images/clients/rentbike.png" alt="" />
                   </a>
                 </div>
 
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/5.png" alt="" />
+                    <img src="/assets/images/clients/beingsurf.png" alt="" />
                   </a>
                 </div>
 
                 {/* Client Box */}
                 <div className="clients-box">
                   <a href="#">
-                    <img src="/assets/images/clients/6.png" alt="" />
+                    <img src="/assets/images/clients/weraevents.png" alt="" />
                   </a>
                 </div>
 
@@ -520,12 +520,12 @@ export default function Home() {
 
       {/* End Tools One */}
 
-      {/* News One */}
-      <section className="news-one style-two">
+      {/* News One - COMMENTED OUT FOR NOW */}
+      {/* <section className="news-one style-two">
         <div className="news-one_shadow-two" style={{ backgroundImage: 'url(/assets/images/background/news-shadow-2.png)' }}></div>
         <div className="auto-container">
           {/* Sec Title */}
-          <div className="sec-title style-two">
+      {/* <div className="sec-title style-two">
             <div className="d-flex justify-content-between align-items-end flex-wrap">
               <div className="left-box">
                 <div className="sec-title_title">OUR BLOG</div>
@@ -546,7 +546,7 @@ export default function Home() {
           <div className="row clearfix">
 
             {/* News Block One */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
+      {/* <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="news-block_one">
                 <div className="news-block_one-inner">
                   <div className="news-block_one-image">
@@ -562,7 +562,7 @@ export default function Home() {
             </div>
 
             {/* News Block One */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
+      {/* <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="news-block_one">
                 <div className="news-block_one-inner">
                   <div className="news-block_one-image">
@@ -578,7 +578,7 @@ export default function Home() {
             </div>
 
             {/* News Block One */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
+      {/* <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="news-block_one">
                 <div className="news-block_one-inner">
                   <div className="news-block_one-image">
@@ -595,7 +595,7 @@ export default function Home() {
 
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End News One */}
     </>
   );
