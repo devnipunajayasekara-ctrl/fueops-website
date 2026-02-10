@@ -73,7 +73,7 @@ export default function Contact() {
                             {/* Sec Title */}
                             <div className="sec-title style-four">
                                 <div className="sec-title_title">Contact us</div>
-                                <h2 className="sec-title_heading">Let's discuss your <span>AI transformation</span></h2>
+                                <h2 className="sec-title_heading">Let's discuss your <span className="animate-text-gradient">AI transformation</span></h2>
                                 <div className="sec-title_text">Whether you need an intelligent chatbot, e-commerce automation, or
                                     custom AI solutions, our team is ready to help you succeed. </div>
                             </div>
