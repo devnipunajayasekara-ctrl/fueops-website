@@ -157,7 +157,7 @@ export default function HotelPmsPage() {
                                         <div className="step-block_one-text">The AI manages all guest inquiries and availability checks via chat while automating the digital check-in process.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-2.png" alt="" />
+                                                <img src="/assets/images/resource/chtpms.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@ export default function HotelPmsPage() {
                                         <div className="step-block_one-text">Staff coordinate via internal dashboard while the system automatically manages all financial records, completely eliminating manual spreadsheets.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-3.png" alt="" />
+                                                <img src="/assets/images/resource/pmstransactions.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -208,13 +208,13 @@ export default function HotelPmsPage() {
                     <div className="row clearfix">
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <img src="/assets/images/resource/service-detail-1.jpg" alt="" />
+                                <img src="/assets/images/resource/dashboard.png" alt="" />
                             </div>
                         </div>
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <a href="https://www.youtube.com/watch?v=kxPCFljwJws" className="lightbox-video service-detail_play"><span className="fa-solid fa-play fa-fw"><i className="ripple"></i></span></a>
-                                <img src="/assets/images/resource/service-detail-2.jpg" alt="" />
+
+                                <img src="/assets/images/resource/chtpms.png" alt="" />
                             </div>
                         </div>
                     </div>
