@@ -38,7 +38,7 @@ export default function Ops360PmsPage() {
                         </div>
                     </div>
                     <div className="service-detail_image">
-                        <img src="/assets/images/resource/service-detail.jpg" alt="Ops 360 PMS Dashboard" />
+                        <img src="/assets/images/resource/pms.png" alt="Ops 360 PMS Dashboard" />
                     </div>
                 </div>
             </section>
@@ -139,7 +139,7 @@ export default function Ops360PmsPage() {
                                         <div className="step-block_one-text">We connect your channel manager, POS systems, payment gateways, and door locks into one unified platform. All data flows automatically between systems.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-1.png" alt="" />
+                                                <img src="/assets/images/resource/integration.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -156,7 +156,7 @@ export default function Ops360PmsPage() {
                                         <div className="step-block_one-text">Front office staff query availability, rates, and guest info via AI chat. All transactions from POS automatically update financial records in real-time.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-2.png" alt="" />
+                                                <img src="/assets/images/resource/aioperation.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +170,7 @@ export default function Ops360PmsPage() {
                                         <div className="step-block_one-text">Management team accesses revenue reports, occupancy analytics, and operational insights through AI chat. Monitor everything from one central command center.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-3.png" alt="" />
+                                                <img src="/assets/images/resource/dashboardpms.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -208,13 +208,13 @@ export default function Ops360PmsPage() {
                     <div className="row clearfix">
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <img src="/assets/images/resource/service-detail-1.jpg" alt="" />
+                                <img src="/assets/images/resource/pms.png" alt="" />
                             </div>
                         </div>
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <a href="https://www.youtube.com/watch?v=kxPCFljwJws" className="lightbox-video service-detail_play"><span className="fa-solid fa-play fa-fw"><i className="ripple"></i></span></a>
-                                <img src="/assets/images/resource/service-detail-2.jpg" alt="" />
+
+                                <img src="/assets/images/resource/dashboard.png" alt="" />
                             </div>
                         </div>
                     </div>

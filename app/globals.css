@@ -148,6 +148,19 @@ body {
   }
 }
 
+@media only screen and (min-width: 1025px) {
+
+  body,
+  a,
+  button,
+  [role="button"],
+  input,
+  textarea,
+  select {
+    cursor: none !important;
+  }
+}
+
 @keyframes equalizer {
 
   0%,
@@ -177,7 +190,9 @@ body {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
-}/* Trusted Partnerships Section */
+}
+
+/* Trusted Partnerships Section */
 .trusted-partnerships {
   padding: 80px 0;
   background: #ffffff;
@@ -235,11 +250,11 @@ body {
   .partners-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .partner-item:nth-child(3n) {
     border-right: none;
   }
-  
+
   .partner-item:nth-child(6n) {
     border-right: 1px solid #e5e5e5;
   }
@@ -249,20 +264,20 @@ body {
   .trusted-partnerships {
     padding: 60px 0;
   }
-  
+
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .partner-item {
     padding: 30px 15px;
     font-size: 14px;
   }
-  
+
   .partner-item:nth-child(2n) {
     border-right: none;
   }
-  
+
   .partner-item:nth-child(3n),
   .partner-item:nth-child(6n) {
     border-right: 1px solid #e5e5e5;
@@ -273,7 +288,7 @@ body {
   .partners-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .partner-item {
     border-right: none !important;
   }

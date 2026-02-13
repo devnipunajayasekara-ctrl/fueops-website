@@ -144,13 +144,13 @@ export default function About() {
             {/* End Value One */}
 
             {/* Team One */}
-            <section className="team-one">
+            {/* <section className="team-one">
                 <div className="auto-container">
                     <div className="row clearfix">
-                        {/* Title Column */}
+                        // Title Column
                         <div className="team-one_title-column col-lg-4 col-md-12 col-sm-12">
                             <div className="team-one_title-outer">
-                                {/* Sec Title */}
+                                // Sec Title
                                 <div className="sec-title style-four">
                                     <div className="sec-title_title">Our team</div>
                                     <h2 className="sec-title_heading">Meet the minds <span className="animate-text-gradient">behind FueOps</span></h2>
@@ -159,22 +159,22 @@ export default function About() {
                             </div>
                         </div>
 
-                        {/* Team Column */}
+                        // Team Column
                         <div className="team-one_team-column col-lg-8 col-md-12 col-sm-12">
                             <div className="team-one_team-outer">
                                 <div className="row clearfix">
 
-                                    {/* Team Block One */}
+                                    // Team Block One
                                     <div className="col-lg-6 col-md-6 col-sm-12">
                                         <div className="team-block_one">
                                             <div className="team-block_one-inner">
                                                 <div className="team-block_one-image">
-                                                    <Link href="#"><img src="/assets/images/resource/team-1.jpg" alt="" className="max-h-[350px] w-full object-cover" /></Link>
+                                                    <Link href="#"><img src="/assets/images/resource/nipuna.png" alt="" className="max-h-[350px] w-full object-cover" /></Link>
                                                 </div>
                                                 <div className="team-block_one-content">
-                                                    <h4 className="team-block_one-title"><Link href="#">Elliot S. Acevedo</Link></h4>
-                                                    <div className="team-block_one-designation">Founder</div>
-                                                    {/* Social Box */}
+                                                    <h4 className="team-block_one-title"><Link href="#">Nipuna D Jayasekara</Link></h4>
+                                                    <div className="team-block_one-designation">Co-Founder</div>
+                                                    // Social Box
                                                     <div className="team-block_one-socials">
                                                         <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
                                                         <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
@@ -185,7 +185,7 @@ export default function About() {
                                         </div>
                                     </div>
 
-                                    {/* Team Block Two */}
+                                    // Team Block Two
                                     <div className="col-lg-6 col-md-6 col-sm-12">
                                         <div className="team-block_one">
                                             <div className="team-block_one-inner">
@@ -195,7 +195,7 @@ export default function About() {
                                                 <div className="team-block_one-content">
                                                     <h4 className="team-block_one-title"><Link href="#">Sarah Mitchell</Link></h4>
                                                     <div className="team-block_one-designation">Co-Founder</div>
-                                                    {/* Social Box */}
+                                                    // Social Box
                                                     <div className="team-block_one-socials">
                                                         <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
                                                         <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
@@ -212,7 +212,7 @@ export default function About() {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* End Team One */}
 
 

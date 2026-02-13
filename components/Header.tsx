@@ -67,7 +67,7 @@ export default function Header() {
                             <li><Link href="/products/ai-chatbot">AI Chatbot</Link></li>
                           </ul>
                         </li>
-                        <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li>
+                        {/* <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li> */}
                         <li className={pathname === '/contact' ? "current" : ""}><Link href="/contact">Contact</Link></li>
                       </ul>
                     </div>

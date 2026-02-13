@@ -42,7 +42,7 @@ export default function Footer() {
                                         <div className="column col-lg-3 col-md-4 col-sm-6">
                                             <h5 className="footer-title">Resources</h5>
                                             <ul className="footer-pages_list">
-                                                <li><Link href="/blog">Blog</Link></li>
+                                                {/* <li><Link href="/blog">Blog</Link></li> */}
                                                 <li><a href="#">Privacy Policy</a></li>
                                             </ul>
                                         </div>
@@ -52,8 +52,8 @@ export default function Footer() {
                                             <ul className="footer-pages_list">
                                                 <li><Link href="/about">About FueOps</Link></li>
                                                 <li><Link href="/contact">Contact Us</Link></li>
-                                                <li><a href="#">Careers</a></li>
-                                                <li><a href="#">Terms</a></li>
+                                                {/* <li><a href="#">Careers</a></li>
+                                                <li><a href="#">Terms</a></li> */}
                                             </ul>
                                         </div>
 

@@ -39,7 +39,7 @@ export default function HotelPmsPage() {
                         </div>
                     </div>
                     <div className="service-detail_image">
-                        <img src="/assets/images/resource/service-detail.jpg" alt="" />
+                        <img src="/assets/images/resource/dashboard.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -140,7 +140,7 @@ export default function HotelPmsPage() {
                                         <div className="step-block_one-text">We connect the PMS to your channel manager, payment gateways, and door lock systems, creating a single source of truth for all hotel data.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-1.png" alt="" />
+                                                <img src="/assets/images/resource/pms.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
