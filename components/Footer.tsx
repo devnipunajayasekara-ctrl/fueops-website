@@ -32,9 +32,9 @@ export default function Footer() {
                                         <div className="column col-lg-5 col-md-4 col-sm-6">
                                             <h5 className="footer-title">Our Solutions</h5>
                                             <ul className="footer-pages_list">
-                                                <li><Link href="/products/ai-chatbot">Intelligent AI Chatbot</Link></li>
-                                                <li><Link href="/products/hotel-pms">Hotel PMS System</Link></li>
-                                                <li><Link href="/products/ecommerce-sale-bot">E-commerce Sale Bot</Link></li>
+                                                {/* <li><Link href="/products/ai-chatbot">Intelligent AI Chatbot</Link></li> */}
+                                                <li><Link href="/products/hotel-pms">Ops Ai Powerd PMS</Link></li>
+                                                <li><Link href="/products/ecommerce-sale-bot">Ops Chat Bot</Link></li>
                                                 <li><Link href="/products">Custom Development</Link></li>
                                             </ul>
                                         </div>

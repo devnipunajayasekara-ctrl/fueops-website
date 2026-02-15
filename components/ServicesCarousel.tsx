@@ -46,7 +46,7 @@ export default function ServicesCarousel() {
                         <div className="service-block_three-icon">
                             <i className="icon-cart"></i>
                         </div>
-                        <h5 className="service-block_three-heading"><Link href="/products/hotel-pms">AI Hotel PMS Integration</Link></h5>
+                        <h5 className="service-block_three-heading"><Link href="/products/hotel-pms">Ops Ai Powerd PMS</Link></h5>
                         <div className="service-block_three-text">A complete property management system where staff verify availability via internal chat and guests book stays through an intelligent assistant.</div>
                         <Link className="service-block_three-more" href="/products/hotel-pms">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
                     </div>
@@ -63,7 +63,7 @@ export default function ServicesCarousel() {
                         <div className="service-block_three-icon">
                             <i className="icon-cart"></i>
                         </div>
-                        <h5 className="service-block_three-heading"><Link href="/products/ecommerce-sale-bot">E-commerce AI Chatbot</Link></h5>
+                        <h5 className="service-block_three-heading"><Link href="/products/ecommerce-sale-bot">Ops Chat Bot</Link></h5>
                         <div className="service-block_three-text">Boost sales and customer satisfaction with our intelligent e-commerce chatbot. Automate product recommendations, handle inquiries, and provide 24/7 shopping assistance.</div>
                         <Link className="service-block_three-more" href="/products/ecommerce-sale-bot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
                     </div>
@@ -71,7 +71,7 @@ export default function ServicesCarousel() {
             </SwiperSlide>
 
             {/* Slide 3 */}
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <div className="service-block_three">
                     <div className="service-block_three-inner">
                         <div className="service-block_three-dots" style={{ backgroundImage: 'url(/assets/images/icons/icon-2.png)' }}></div>
@@ -85,7 +85,7 @@ export default function ServicesCarousel() {
                         <Link className="service-block_three-more" href="/products/ai-chatbot">Learn more <i className="fa-solid fa-arrow-right fa-fw"></i></Link>
                     </div>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
             {/* Slide 4 */}
             <SwiperSlide>

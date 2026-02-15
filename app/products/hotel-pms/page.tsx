@@ -12,11 +12,11 @@ export default function HotelPmsPage() {
                 <div className="page-title-shadow" style={{ backgroundImage: 'url(/assets/images/background/page-title-1.png)' }}></div>
                 <div className="page-title-shadow_two" style={{ backgroundImage: 'url(/assets/images/background/page-title-2.png)' }}></div>
                 <div className="auto-container">
-                    <h2>AI Hotel PMS</h2>
+                    <h2>Ops Ai Powerd PMS</h2>
                     <ul className="bread-crumb clearfix">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/products">Products</Link></li>
-                        <li>Hotel PMS</li>
+                        <li>Ops Ai Powerd PMS</li>
                     </ul>
                 </div>
             </section>
@@ -39,7 +39,7 @@ export default function HotelPmsPage() {
                         </div>
                     </div>
                     <div className="service-detail_image">
-                        <img src="/assets/images/resource/dashboard.png" alt="" />
+                        <img src="/assets/images/resource/surfstation.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -208,7 +208,7 @@ export default function HotelPmsPage() {
                     <div className="row clearfix">
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <img src="/assets/images/resource/dashboard.png" alt="" />
+                                <img src="/assets/images/resource/surfstation.png" alt="" />
                             </div>
                         </div>
                         <div className="column col-lg-6 col-md-6 col-sm-12">

@@ -12,11 +12,11 @@ export default function EcommerceSaleBotPage() {
                 <div className="page-title-shadow" style={{ backgroundImage: 'url(/assets/images/background/page-title-1.png)' }}></div>
                 <div className="page-title-shadow_two" style={{ backgroundImage: 'url(/assets/images/background/page-title-2.png)' }}></div>
                 <div className="auto-container">
-                    <h2>AI Shopping Assistant</h2>
+                    <h2>Ops Chat Bot</h2>
                     <ul className="bread-crumb clearfix">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/products">Products</Link></li>
-                        <li>E-commerce Chatbot</li>
+                        <li>Ops Chat Bot</li>
                     </ul>
                 </div>
             </section>
@@ -33,13 +33,13 @@ export default function EcommerceSaleBotPage() {
                                 <h2 className="sec-title_heading">Turn visitors into buyers with <span className="animate-text-gradient">Conversational </span>Commerce</h2>
                             </div>
                             <div className="right-box">
-                                <p>Static product pages are a thing of the past. FueOps E-commerce Sales Bot acts as a proactive digital sales associate, living on your store 24/7. It greets visitors, understands their shopping needs, and guides them directly to the products they want, replicating the in-store experience online.</p>
+                                <p>Static product pages are a thing of the past. FueOps Ops Chat Bot acts as a proactive digital sales associate, living on your store 24/7. It greets visitors, understands their shopping needs, and guides them directly to the products they want, replicating the in-store experience online.</p>
                                 <p>Beyond simple greetings, our AI is built to sell. It detects hesitation to prevent cart abandonment, suggests personalized add-ons to increase Average Order Value (AOV), and answers sizing or shipping questions instantly to remove purchase barriers.</p>
                             </div>
                         </div>
                     </div>
                     <div className="service-detail_image">
-                        <img src="/assets/images/resource/service-detail.jpg" alt="" />
+                        <img src="/assets/images/resource/aichat.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -140,7 +140,7 @@ export default function EcommerceSaleBotPage() {
                                         <div className="step-block_one-text">We integrate the bot directly with your product feed (Shopify, WooCommerce, etc.), allowing it to &quot;know&quot; every item, price, and stock level instantly.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-1.png" alt="" />
+                                                <img src="/assets/images/resource/aichat4.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -157,7 +157,7 @@ export default function EcommerceSaleBotPage() {
                                         <div className="step-block_one-text">We configure the AI&apos;s sales tactics—whether you want it to be helpful and subtle, or aggressive with promotions—and set up brand-specific Q&A.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-2.png" alt="" />
+                                                <img src="/assets/images/resource/aichat3.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@ export default function EcommerceSaleBotPage() {
                                         <div className="step-block_one-text">The bot launches on your storefront. It immediately begins assisting shoppers, tracking sales attribution, and learning which pitches work best.</div>
                                         <div className="step-block_one-content">
                                             <div className="image">
-                                                <img src="/assets/images/resource/step-3.png" alt="" />
+                                                <img src="/assets/images/resource/aichat2.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -208,13 +208,13 @@ export default function EcommerceSaleBotPage() {
                     <div className="row clearfix">
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <img src="/assets/images/resource/service-detail-1.jpg" alt="" />
+                                <img src="/assets/images/resource/aichat.png" alt="" />
                             </div>
                         </div>
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
-                                <a href="https://www.youtube.com/watch?v=kxPCFljwJws" className="lightbox-video service-detail_play"><span className="fa-solid fa-play fa-fw"><i className="ripple"></i></span></a>
-                                <img src="/assets/images/resource/service-detail-2.jpg" alt="" />
+
+                                <img src="/assets/images/resource/aichat2.png" alt="" />
                             </div>
                         </div>
                     </div>

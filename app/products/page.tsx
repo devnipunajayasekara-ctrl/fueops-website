@@ -27,7 +27,7 @@ export default function ProductsPage() {
                     <div className="row clearfix">
 
                         {/* Service Block One */}
-                        <div className="service-block_one col-lg-4 col-md-6 col-sm-12">
+                        {/* <div className="service-block_one col-lg-4 col-md-6 col-sm-12">
                             <div className="service-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="service-block_one-icon">
                                     <i className="icon-marketing"></i>
@@ -39,7 +39,7 @@ export default function ProductsPage() {
                                     <Link className="service-block_one-join" href="/products/ai-chatbot"> Learn More <i className="fa-solid fa-plus fa-fw"></i></Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Service Block One */}
                         <div className="service-block_one col-lg-4 col-md-6 col-sm-12">
@@ -47,7 +47,7 @@ export default function ProductsPage() {
                                 <div className="service-block_one-icon">
                                     <i className="icon-cart"></i>
                                 </div>
-                                <h5 className="service-block_one-heading"><Link href="/products/ecommerce-sale-bot">E-Commerce Sales Bot</Link></h5>
+                                <h5 className="service-block_one-heading"><Link href="/products/ecommerce-sale-bot">Ops Chat Bot</Link></h5>
                                 <div className="service-block_one-text">Drive sales with an AI assistant designed for online retail. It guides customers, recommends products, and handles <span>checkout inquiries</span> autonomously to reduce cart abandonment.</div>
                                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                                     <div className="service-block_one-number">02</div>
@@ -62,7 +62,7 @@ export default function ProductsPage() {
                                 <div className="service-block_one-icon">
                                     <i className="icon-users"></i>
                                 </div>
-                                <h5 className="service-block_one-heading"><Link href="/products/hotel-pms">AI Hotel PMS Integration</Link></h5>
+                                <h5 className="service-block_one-heading"><Link href="/products/hotel-pms">Ops Ai Powerd PMS</Link></h5>
                                 <div className="service-block_one-text">A complete Property Management System integrated with AI. Guests can access booking details, services, and queries instantly via our <span>smart chat interface</span>, reducing front-desk load.</div>
                                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                                     <div className="service-block_one-number">03</div>
@@ -135,7 +135,7 @@ export default function ProductsPage() {
                                 <div className="counter-block_one-inner wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
                                     <div className="counter-block_one-icon fa-solid fa-comments fa-fw"></div>
                                     <div className="counter-block_one-count"><span className="odometer" data-count="100000"></span><i>+</i></div>
-                                    <div className="counter-block_one-text">Automated interactions processed by our AI Chatbots.</div>
+                                    <div className="counter-block_one-text">Automated interactions processed by our AI systems.</div>
                                 </div>
                             </div>
 
@@ -186,21 +186,21 @@ export default function ProductsPage() {
                                 {/* Accordion Box */}
                                 <Accordion items={[
                                     {
-                                        question: "How does the Hotel PMS AI integration work?",
+                                        question: "How does the Ops Ai Powerd PMS integration work?",
                                         answer: "Our PMS utilizes a centralized AI core. When a guest asks a question via chat (e.g., \"What is my checkout time?\"), the AI pulls real-time data from the Property Management System and answers instantly, without staff intervention."
                                     },
                                     {
-                                        question: "Can the E-commerce bot handle complex sales queries?",
-                                        answer: "Yes. Unlike standard bots, our E-commerce AI is trained on your specific product catalog. It can suggest alternatives, check stock levels, and guide users through the purchasing process to increase conversion rates."
+                                        question: "Can the Ops Chat Bot handle complex sales queries?",
+                                        answer: "Yes. Unlike standard bots, our Ops Chat Bot is trained on your specific product catalog. It can suggest alternatives, check stock levels, and guide users through the purchasing process to increase conversion rates."
                                     },
                                     {
                                         question: "Do you offer custom software development services?",
                                         answer: "Absolutely. While we have standalone products, FueOps functions as a full-service software partner. We can build custom software or integrate our AI modules into your existing legacy systems."
                                     },
-                                    {
+                                    /* {
                                         question: "How long does it take to deploy the AI Chatbot?",
                                         answer: "Deployment is rapid. For standard integrations, our AI Chatbot can be live within days. Complex integrations requiring deep database connections (like PMS or Finance) typically take 2-4 weeks to fully customize and test."
-                                    }
+                                    } */
                                 ]} />
 
                             </div>

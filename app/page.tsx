@@ -180,8 +180,8 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">CONVERSATIONAL AI</div>
-                        <h2 className="sec-title_heading">Intelligent <span className="animate-text-gradient">AI Chatbot</span> for Business</h2>
-                        <div className="sec-title_text">Deploy conversational AI that understands customer intent and delivers human-like interactions 24/7. Perfect for automating support and lead qualification.</div>
+                        <h2 className="sec-title_heading">Intelligent <span className="animate-text-gradient">AI System</span> for Business</h2>
+                        <div className="sec-title_text">Deploy intelligent AI systems that understand business needs and deliver human-like interactions 24/7. Perfect for automating support and lead qualification.</div>
                       </div>
                       <ul className="livechat-list">
                         <li><i className="fa-solid fa-check fa-fw"></i>Natural language processing capabilities</li>
@@ -211,8 +211,8 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">HOSPITALITY SOLUTIONS</div>
-                        <h2 className="sec-title_heading">Transform Hospitality with <span className="animate-text-gradient">AI Hotel PMS</span></h2>
-                        <div className="sec-title_text">A centralized system connecting your front desk and guests. Staff check availability via internal chat while guests enjoy automated check-ins.</div>
+                        <h2 className="sec-title_heading">Transform Hospitality with <span className="animate-text-gradient">Ops Ai Powerd PMS</span></h2>
+                        <div className="sec-title_text">A centralized system connecting your front desk and guests. Staff check availability via internal chat while guests enjoy automated check-ins and smart assistant support.</div>
                       </div>
                       <ul className="livechat-list">
                         <li><i className="fa-solid fa-check fa-fw"></i>Internal command chat for hotel staff</li>
@@ -242,7 +242,7 @@ export default function Home() {
                     <div className="conversation-one_content-outer">
                       <div className="sec-title style-two">
                         <div className="sec-title_title">E-COMMERCE EXCELLENCE</div>
-                        <h2 className="sec-title_heading">Drive Sales with <span className="animate-text-gradient">E-commerce AI</span></h2>
+                        <h2 className="sec-title_heading">Drive Sales with <span className="animate-text-gradient">Ops Chat Bot</span></h2>
                         <div className="sec-title_text">Analyzes customer behavior in real-time to suggest relevant products and answer stock queries instantly. High conversion driven by smart upsells.</div>
                       </div>
                       <ul className="livechat-list">
@@ -261,7 +261,7 @@ export default function Home() {
                   </div>
                   <div className="conversation-one_chat-column col-lg-6 col-md-12 col-sm-12">
                     <div className="conversation-one_chat-outer">
-                      <div className="conversation-one_image"><img src="/assets/images/resource/chats.png" alt="E-commerce AI" /></div>
+                      <div className="conversation-one_image"><img src="/assets/images/resource/chats.png" alt="Ops Chat Bot" /></div>
                     </div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function Home() {
                               <span className="fa fa-star"></span>
                               <span className="fa fa-star"></span>
                             </div>
-                            <div className="testimonial-block_two-text">FueOps transformed our hotel operations completely. The AI-powered PMS eliminated all our manual spreadsheets and automated guest check-ins. Our front desk staff can now focus on creating memorable experiences instead of paperwork. Response times improved by 70%, and our guest satisfaction scores have never been higher.</div>
+                            <div className="testimonial-block_two-text">FueOps transformed our hotel operations completely. The Ops Ai Powerd PMS eliminated all our manual spreadsheets and automated guest check-ins. Our front desk staff can now focus on creating memorable experiences instead of paperwork. Response times improved by 70%, and our guest satisfaction scores have never been higher.</div>
                             <div className="testimonial-block_two-author_box">
                               <div className="testimonial-block_two-author-image">
                                 <img src="/assets/images/resource/author-5.png" alt="" />
@@ -381,7 +381,7 @@ export default function Home() {
                               <span className="fa fa-star"></span>
                               <span className="fa fa-star"></span>
                             </div>
-                            <div className="testimonial-block_two-text">Since implementing FueOps' e-commerce AI chatbot, our conversion rate jumped 45%. The intelligent product recommendations and instant inventory responses handle 80% of customer inquiries automatically. It's like having a sales team that never sleeps, and our customers love the instant, accurate responses.</div>
+                            <div className="testimonial-block_two-text">FueOps transformed our hotel operations completely. The Ops Ai Powerd PMS eliminated all our manual spreadsheets and automated guest check-ins. Our front desk staff can now focus on creating memorable experiences instead of paperwork. Response times improved by 70%, and our guest satisfaction scores have never been higher.</div>
                             <div className="testimonial-block_two-author_box">
                               <div className="testimonial-block_two-author-image">
                                 <img src="/assets/images/resource/author-5.png" alt="" />

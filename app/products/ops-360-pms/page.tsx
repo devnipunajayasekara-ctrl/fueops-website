@@ -214,7 +214,7 @@ export default function Ops360PmsPage() {
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                             <div className="service-detail_image-two">
 
-                                <img src="/assets/images/resource/dashboard.png" alt="" />
+                                <img src="/assets/images/resource/surfstation.png" alt="" />
                             </div>
                         </div>
                     </div>

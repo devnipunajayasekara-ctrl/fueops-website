@@ -62,9 +62,9 @@ export default function Header() {
                           <ul>
                             <li><Link href="/products">All Products</Link></li>
                             <li><Link href="/products/ops-360-pms">OPS 360 PMS</Link></li>
-                            <li><Link href="/products/hotel-pms">AI Hotel PMS</Link></li>
-                            <li><Link href="/products/ecommerce-sale-bot">E-Commerce Bot</Link></li>
-                            <li><Link href="/products/ai-chatbot">AI Chatbot</Link></li>
+                            <li><Link href="/products/hotel-pms">OPS Ai Powerd PMS</Link></li>
+                            <li><Link href="/products/ecommerce-sale-bot">Ops Chat Bot</Link></li>
+                            {/* <li><Link href="/products/ai-chatbot">AI Chatbot</Link></li> */}
                           </ul>
                         </li>
                         {/* <li className={pathname?.startsWith('/blog') ? "current" : ""}><Link href="/blog">Blog</Link></li> */}
